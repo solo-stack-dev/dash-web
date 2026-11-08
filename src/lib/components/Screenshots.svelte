@@ -2,7 +2,7 @@
 	@component
 	Store style screenshot carousel: each slide is a caption over a landscape phone frame, like a Play Store / App Store
 	listing. Native horizontal scroll with snap points (touch, trackpad, keyboard); the arrow buttons scroll one slide.
-	Images are lazy except the first two.
+	The carousel sits below the fold, so every image is lazy; the figcaption describes the image, so `alt` is empty.
 -->
 <script lang="ts">
 	import { m } from '#lib/paraglide/messages.js';
@@ -37,18 +37,17 @@
 </script>
 
 <div class="relative">
-	<ul bind:this={track} onscroll={update} class="track" tabindex="-1">
-		{#each shots as shot, index (shot.id)}
+	<ul bind:this={track} onscroll={update} class="track">
+		{#each shots as shot (shot.id)}
 			<li class="slide">
 				<figure class="card flex h-full flex-col rounded-card p-4 plank sm:p-5">
 					<figcaption class="caption px-2 pt-1 pb-4 font-display text-2xl leading-tight text-cream sm:text-3xl">{shot.caption()}</figcaption>
 					<PhoneFrame>
 						<enhanced:img
 							src={shot.image}
-							alt={shot.caption()}
+							alt=""
 							sizes="(min-width: 1024px) 680px, (min-width: 640px) 75vw, 88vw"
-							loading={index < 2 ? 'eager' : 'lazy'}
-							fetchpriority={index === 0 ? 'high' : undefined}
+							loading="lazy"
 							class="block aspect-video h-auto w-full object-cover"
 						/>
 					</PhoneFrame>

@@ -26,7 +26,7 @@
 <header class="nav sticky top-0 z-40" class:is-scrolled={scrolled}>
 	<nav class="container-page flex h-16 items-center gap-3 sm:h-18">
 		<a href={href('/')} class="flex items-center gap-2.5 rounded-2xl pr-2">
-			<enhanced:img src={appIcon} alt="" class="size-9 rounded-xl shadow-lg ring-1 ring-gold/40 sm:size-10" />
+			<enhanced:img src={appIcon} alt="" sizes="40px" class="size-9 rounded-xl shadow-lg ring-1 ring-gold/40 sm:size-10" />
 			<span class="font-display text-2xl text-cream sm:text-3xl">{GAME_NAME}</span>
 		</a>
 

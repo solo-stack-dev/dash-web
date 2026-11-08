@@ -14,7 +14,7 @@
 <footer class="footer mt-24 border-t border-plank/80">
 	<div class="container-page flex flex-col gap-8 py-12 sm:flex-row sm:items-center sm:justify-between">
 		<div class="flex items-center gap-3">
-			<enhanced:img src={appIcon} alt="" class="size-11 rounded-xl ring-1 ring-gold/30" />
+			<enhanced:img src={appIcon} alt="" sizes="44px" class="size-11 rounded-xl ring-1 ring-gold/30" />
 			<div>
 				<p class="font-display text-2xl leading-none">{GAME_NAME}</p>
 				<p class="mt-1 text-sm text-dust">

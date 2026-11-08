@@ -11,11 +11,11 @@
 	import runGhostSheet from '#lib/assets/sprites/run-ghost-sheet.webp?url';
 	import runSheet from '#lib/assets/sprites/run-sheet.webp?url';
 	import finished from '#lib/assets/sprites/squirrel-finished.webp?enhanced';
-	import bloomworks from '#lib/assets/worlds/bloomworks.webp?enhanced';
-	import citadel from '#lib/assets/worlds/citadel.webp?enhanced';
-	import frostwell from '#lib/assets/worlds/frostwell.webp?enhanced';
-	import kitewoods from '#lib/assets/worlds/kitewoods.webp?enhanced';
-	import mill from '#lib/assets/worlds/mill.webp?enhanced';
+	import bloomworks from '#lib/assets/worlds/bloomworks.webp?w=480;800;1280&enhanced';
+	import citadel from '#lib/assets/worlds/citadel.webp?w=480;800;1280&enhanced';
+	import frostwell from '#lib/assets/worlds/frostwell.webp?w=480;800;1280&enhanced';
+	import kitewoods from '#lib/assets/worlds/kitewoods.webp?w=480;800;1280&enhanced';
+	import mill from '#lib/assets/worlds/mill.webp?w=480;800;1280&enhanced';
 	import PhoneFrame from '#lib/components/PhoneFrame.svelte';
 	import Screenshots from '#lib/components/Screenshots.svelte';
 	import Seo from '#lib/components/Seo.svelte';
@@ -78,7 +78,7 @@
 					<enhanced:img
 						src={hero}
 						alt={m.home_hero_image_alt()}
-						sizes="(min-width: 1024px) 720px, 94vw"
+						sizes="(min-width: 1024px) 600px, 94vw"
 						fetchpriority="high"
 						class="block aspect-video h-auto w-full object-cover"
 					/>
@@ -98,7 +98,7 @@
 <!-- Screenshots -->
 <section id="screenshots" class="pt-20 sm:pt-28">
 	<div class="container-page">
-		<h2 class="text-5xl leading-none sm:text-6xl">{m.home_shots_heading()}</h2>
+		<h2 class="text-section leading-none sm:text-6xl">{m.home_shots_heading()}</h2>
 		<p class="mt-4 max-w-2xl text-lg text-parchment">{m.home_shots_intro()}</p>
 	</div>
 	<div class="mt-10">
@@ -111,7 +111,7 @@
 	<div class="grid gap-12 lg:grid-cols-12 lg:gap-16">
 		<div class="lg:col-span-5">
 			<div class="lg:sticky lg:top-28">
-				<h2 class="text-5xl leading-none sm:text-6xl">{m.home_features_heading()}</h2>
+				<h2 class="text-section leading-none sm:text-6xl">{m.home_features_heading()}</h2>
 				<div class="shelf mt-10" aria-hidden="true">
 					<div class="shelf-glow"></div>
 					<enhanced:img src={finished} alt="" class="shelf-squirrel" />
@@ -139,7 +139,7 @@
 
 <!-- Worlds -->
 <section id="worlds" class="container-page pt-24 sm:pt-32">
-	<h2 class="text-5xl leading-none sm:text-6xl">{m.home_worlds_heading()}</h2>
+	<h2 class="text-section leading-none sm:text-6xl">{m.home_worlds_heading()}</h2>
 	<p class="mt-4 max-w-2xl text-lg text-parchment">{m.home_worlds_intro()}</p>
 	<ol class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-6">
 		{#each worlds as world, index (world.id)}
@@ -167,7 +167,7 @@
 <!-- Controls: five glowing touch pads standing on a timber beam, no cards -->
 <section id="controls" class="controls relative pt-24 sm:pt-32">
 	<div class="container-page text-center">
-		<h2 class="text-5xl leading-none sm:text-6xl">{m.home_controls_heading()}</h2>
+		<h2 class="text-section leading-none sm:text-6xl">{m.home_controls_heading()}</h2>
 		<p class="mx-auto mt-4 max-w-2xl text-lg text-parchment">{m.home_controls_intro()}</p>
 	</div>
 	<div class="container-page">
@@ -194,8 +194,8 @@
 
 <!-- Call to action -->
 <section class="container-page pt-24 text-center sm:pt-32">
-	<enhanced:img src={appIcon} alt="" class="mx-auto size-28 rounded-3xl shadow-glow sm:size-36" />
-	<h2 class="mt-8 text-gilded text-5xl leading-none sm:text-6xl">{m.home_cta_heading()}</h2>
+	<enhanced:img src={appIcon} alt="" sizes="(min-width: 640px) 144px, 112px" class="mx-auto size-28 rounded-3xl shadow-glow sm:size-36" />
+	<h2 class="mt-8 text-gilded text-section leading-none sm:text-6xl">{m.home_cta_heading()}</h2>
 	<p class="mx-auto mt-4 max-w-xl text-lg text-parchment">{m.home_cta_text()}</p>
 	<div class="mt-8 flex justify-center">
 		<StoreBadges size="lg" />

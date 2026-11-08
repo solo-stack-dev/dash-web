@@ -32,7 +32,7 @@
 <Seo title={`${title} · ${GAME_NAME}`} {description} {path} locale={canonicalLocale} />
 
 <article class="container-page max-w-3xl pt-10 pb-8 sm:pt-16">
-	<h1 class="text-gilded text-5xl leading-none sm:text-6xl">{title}</h1>
+	<h1 class="text-gilded text-section leading-none sm:text-6xl">{title}</h1>
 	<div class="legal-text mt-10" lang={locale}>
 		{@render children()}
 	</div>

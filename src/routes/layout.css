@@ -73,6 +73,9 @@
 	--font-display: 'Lilita One', ui-rounded, 'Arial Rounded MT Bold', system-ui, sans-serif;
 	--font-sans: 'Nunito', ui-rounded, system-ui, sans-serif;
 
+	/* Section headings: text-5xl, shrinking on the narrowest phones so long German words ("Flughörnchen") fit at 320 px */
+	--text-section: clamp(2.5rem, 13vw, 3rem);
+
 	--radius-card: 1.75rem;
 	--shadow-plank: 0 1px 0 0 rgb(255 224 138 / 0.08) inset, 0 18px 40px -18px rgb(0 0 0 / 0.75);
 	--shadow-glow: 0 0 0 1px rgb(246 196 83 / 0.35), 0 20px 60px -20px rgb(240 167 58 / 0.55);
