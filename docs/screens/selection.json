@@ -1,0 +1,15 @@
+{
+	"hero": "clean/01-mill-sawtooth-hall-blade.png",
+	"og": "clean/01-mill-sawtooth-hall-blade.png",
+	"shots": [
+		{ "id": "ghost-morning-market", "file": "04-kitewoods-morning-market-bells.png", "caption": "shot_caption_ghost" },
+		{ "id": "mill-sawtooth-hall", "file": "01-mill-sawtooth-hall-blade.png", "caption": "shot_caption_mill" },
+		{ "id": "kitewoods-updraft-valley", "file": "03-kitewoods-updraft-valley-kites.png", "caption": "shot_caption_kitewoods" },
+		{ "id": "frostwell-thawgate", "file": "05-frostwell-thawgate-icefalls.png", "caption": "shot_caption_frostwell" },
+		{ "id": "bloomworks-seed-freight", "file": "08-bloomworks-seed-freight.png", "caption": "shot_caption_bloomworks" },
+		{ "id": "citadel-siege-convoy", "file": "10-citadel-siege-convoy.png", "caption": "shot_caption_citadel" },
+		{ "id": "menu-worlds", "file": "menu-worlds.png", "caption": "shot_caption_worlds" },
+		{ "id": "menu-results", "file": "menu-results.png", "caption": "shot_caption_medals" },
+		{ "id": "menu-title", "file": "menu-title.png", "caption": "shot_caption_title" }
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"name": "dash-web",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"private": true,
 	"type": "module",
 	"imports": {
@@ -8,26 +8,50 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"scripts": {
-		"dev": "vite dev",
-		"build": "wrangler types --check && vite build",
-		"preview": "wrangler dev .svelte-kit/cloudflare/_worker.js --port 4173",
+		"dev": "vite dev --host",
+		"build": "vite build",
+		"analyze": "vite build --mode analyze",
+		"preview": "vite build --mode preview && wrangler dev",
+		"staging:deploy": "vite build --mode staging && wrangler deploy --env staging",
+		"production:deploy": "vite build && wrangler deploy --env production",
 		"prepare": "svelte-kit sync || echo ''",
-		"check": "wrangler types --check && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"gen": "wrangler types"
+		"check": "pnpm paraglide:compile && wrangler types && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "pnpm paraglide:compile && wrangler types && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"format": "oxfmt",
+		"format:check": "oxfmt --check",
+		"lint": "oxlint .",
+		"lint:fix": "oxlint --fix && oxfmt",
+		"pkg:update": "sfw pnpm update",
+		"pkg:upgrade": "sfw pnpm update --interactive --latest",
+		"gen": "wrangler types",
+		"paraglide:compile": "paraglide-js compile --project ./project.inlang --silent",
+		"copy": "node scripts/copy.mjs",
+		"screens": "node scripts/screens.mjs"
 	},
 	"devDependencies": {
-		"@inlang/paraglide-js": "^2.29.3",
+		"@inlang/paraglide-js": "^3.2.1",
+		"@shadcn/lint": "^0.2.5",
 		"@sveltejs/adapter-cloudflare": "^8.0.2",
 		"@sveltejs/enhanced-img": "^1.0.0",
 		"@sveltejs/kit": "^3.1.1",
 		"@sveltejs/vite-plugin-svelte": "^7.3.1",
 		"@tailwindcss/vite": "^4.3.4",
+		"@types/node": "^24.19.2",
+		"mdsvex": "^0.12.8",
+		"oxfmt": "^0.76.0",
+		"oxlint": "^1.91.0",
+		"rolldown": "^1.2.16",
+		"sharp": "0.35.5",
+		"super-sitemap": "^2.0.6",
 		"svelte": "^5.57.3",
 		"svelte-check": "^4.7.8",
 		"tailwindcss": "^4.3.4",
 		"typescript": "^6.0.3",
 		"vite": "^8.3.5",
 		"wrangler": "^4.157.0"
-	}
+	},
+	"engines": {
+		"node": ">=24.18.0"
+	},
+	"packageManager": "pnpm@11.13.1"
 }

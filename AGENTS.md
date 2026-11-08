@@ -1,32 +1,34 @@
 # AGENTS.md
 
-**solo-stack.dev** is the personal homepage and video blog for the Solo Stack YouTube channel. It is a playful, branded landing page plus a blog that turns each YouTube video into an SEO-friendly article. Read [docs/PROJECT.md](docs/PROJECT.md) for the full picture and [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) before making structural changes. Homepage work follows [docs/HANDOFF-HOMEPAGE.md](docs/HANDOFF-HOMEPAGE.md); code in `src/lib/home/` follows [docs/HOMEPAGE-DEV.md](docs/HOMEPAGE-DEV.md) (folder ownership, shared APIs, message keys).
+This repo is the official website of **Rallop**, the mobile game in `D:\repos\dash` (Godot, separate repo). The site is the game's home for Google Play and the App Store: a landing page with store style screenshots, a support page, the privacy policy and the imprint. Read [docs/PROJECT.md](docs/PROJECT.md) before changing pages or copy.
 
 ## Hard rule: public text comes from `gpt-6.1-sol`
 
-Any text that ships to visitors must be generated with OpenAI **`gpt-6.1-sol`**. That covers page copy, blog posts, titles, meta descriptions, alt text, microcopy, and translations. Claude and other agents must not write it themselves, because their output may carry watermarks.
+Any text that ships to visitors must be generated with OpenAI **`gpt-6.1-sol`**. That covers page copy, titles, meta descriptions, alt text, microcopy, legal texts and translations. Claude and other agents must not write it themselves, because their output may carry watermarks.
 
 - Agents write code, prompts, structure, and docs. Where copy is needed, add a clearly marked placeholder (`TODO(copy): …`) or generate it with the model.
-- Locally: `codex exec -m gpt-6.1-sol "<prompt>"`. Automated pipelines: OpenAI API with model `gpt-6.1-sol`.
+- Prompts live in `docs/copy/<name>-prompt.md` and share the fact sheet [docs/copy/FACTS.md](docs/copy/FACTS.md) via `{{FACTS}}`. Run `pnpm copy <name> [json|md]` (wraps `codex exec -m gpt-6.1-sol`); the reply lands in `docs/copy/<name>-output.*`.
+- UI strings: `node scripts/messages.mjs` merges the JSON outputs into `messages/{locale}.json`. Never edit message values by hand.
 - Prompts must follow the copy rules in [docs/PROJECT.md](docs/PROJECT.md#voice-and-copy-rules).
 
 ## Stack in one glance
 
-SvelteKit 3 + Svelte 5 (runes, experimental `async`) on Cloudflare Workers, D1 via Drizzle ORM (schema `src/lib/db/schema.ts`, `pnpm db:generate`) plus KV, Tailwind CSS 4, mdsvex for `.md`/`.svx`, Paraglide for i18n, valibot for validation, super-sitemap. Details in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+SvelteKit 3 + Svelte 5 (runes, experimental `async`) on Cloudflare Workers, fully prerendered (no bindings, no secrets). Tailwind CSS 4, mdsvex for the legal Markdown, Paraglide for i18n (`en` base at `/`, `de` at `/de`), `@sveltejs/enhanced-img` for every image, super-sitemap.
 
 ## Conventions
 
-- **Data loading and mutations use SvelteKit remote functions** (`query`, `prerender`, `command`, `form` in `*.remote.ts`), validated with valibot. Prefer them over `+page.server.ts` load functions and API routes.
+- **Everything is static** (`export const prerender = true` in the root layout). If data loading or a form is ever needed, use SvelteKit remote functions (`query`, `prerender`, `command`, `form` in `*.remote.ts`) validated with valibot, not `+page.server.ts` loads or API routes.
 - Import from `src/lib` via the `#lib/*` subpath import (see `package.json` `imports`).
-- UI strings go through Paraglide messages in `messages/{locale}.json`; `src/lib/paraglide` is generated, never edit it.
-- **Performance is a feature.** Animations and games must be lazy, cheap, and respect `prefers-reduced-motion`. Ask before adding a heavy dependency.
+- UI strings go through Paraglide messages in `messages/{locale}.json`; `src/lib/paraglide` is generated, never edit it. Game proper nouns (world and course names, "Rallop") stay in code.
+- Game facts and publisher details live in `src/lib/site.ts`; store URLs there switch the "coming soon" badges to links.
+- **Performance is a feature.** Images through enhanced-img (AVIF/WebP), animations cheap and paused under `prefers-reduced-motion`. Ask before adding a heavy dependency.
 - pnpm only. New packages are subject to a 5 day minimum release age (`pnpm-workspace.yaml`).
 - Install packages only via `sfw pnpm …` (e.g. `sfw pnpm add -D foo`).
-- Format and lint with oxfmt/oxlint (tabs, single quotes, width 170).
+- Format and lint with oxfmt/oxlint (tabs, single quotes, width 170). Tailwind arbitrary values (`w-[13px]`) are a lint error: add a theme token or use scoped CSS.
 
-## Blog posts
+## Screenshots
 
-New post for a video, its translation, or a revision: follow the `blog-post` skill ([.claude/skills/blog-post/SKILL.md](.claude/skills/blog-post/SKILL.md)). A translation names its original in `translationOf`; that links the versions for hreflang, the sitemap and the blog index.
+Gameplay screenshots are captured from the game with Godot (see [docs/PROJECT.md](docs/PROJECT.md#screenshots)). Raw 2560×1440 PNGs go to `docs/screens/raw/`, `pnpm screens` encodes the selection into `src/lib/screens/` plus `static/og.jpg`.
 
 ## Commands
 

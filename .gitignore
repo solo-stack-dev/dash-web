@@ -1,4 +1,5 @@
 node_modules
+.pnpm-store/
 
 # Output
 .output
@@ -24,3 +25,14 @@ vite.config.ts.timestamp-*
 # Paraglide
 src/lib/paraglide
 project.inlang/cache/
+
+# Cloudflare
+worker-configuration.d.ts
+.dev*
+.dev.*
+.dev.vars*
+!.dev.vars.example
+!.env.example
+
+# Raw 2560×1440 game captures (~100 MB): regenerate with the capture script, see docs/PROJECT.md#screenshots
+/docs/screens/raw/**/*.png

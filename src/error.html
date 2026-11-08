@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<title>%sveltekit.status% · Rallop</title>
+		<style>
+			html {
+				background: #120d09;
+				color: #fff3da;
+				font-family: ui-rounded, system-ui, sans-serif;
+			}
+			body {
+				display: grid;
+				place-content: center;
+				gap: 1.5rem;
+				min-height: 100svh;
+				margin: 0;
+				text-align: center;
+			}
+			p {
+				margin: 0;
+				font:
+					900 clamp(5rem, 20vw, 10rem) / 0.9 ui-rounded,
+					system-ui,
+					sans-serif;
+				color: #f6c453;
+			}
+			a {
+				color: #fff3da;
+				font-weight: 900;
+				text-decoration: none;
+				font-size: 1.5rem;
+			}
+			a:focus-visible {
+				outline: 3px solid #f6c453;
+				outline-offset: 4px;
+			}
+		</style>
+	</head>
+	<body>
+		<p>%sveltekit.status%</p>
+		<a href="/">Rallop</a>
+	</body>
+</html>

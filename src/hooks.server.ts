@@ -1,11 +1,28 @@
+import { redirect } from '@sveltejs/kit';
+import { sequence } from '@sveltejs/kit/hooks';
 import type { Handle } from '@sveltejs/kit/hooks';
-import { getTextDirection } from '#lib/paraglide/runtime.js';
+import { baseLocale, deLocalizeUrl, getTextDirection } from '#lib/paraglide/runtime.js';
 import { paraglideMiddleware } from '#lib/paraglide/server.js';
 
-const handleParaglide: Handle = ({ event, resolve }) => paraglideMiddleware(event.request, ({ request, locale }) => {
-	return resolve({ ...event, request }, {
-		transformPageChunk: ({ html }) => html.replace('%paraglide.lang%', locale).replace('%paraglide.dir%', getTextDirection(locale))
-	});
-});
+// Base locale is unprefixed (`/support`); Paraglide also accepts `/en/support`, which is duplicate content: 308 to canonical.
+// Leading slashes are collapsed: `/en//evil.com` would otherwise redirect to the protocol relative `//evil.com`.
+const handleBaseLocalePrefix: Handle = ({ event, resolve }) => {
+	const { pathname } = event.url;
+	if (pathname === `/${baseLocale}` || pathname.startsWith(`/${baseLocale}/`)) {
+		const canonical = deLocalizeUrl(event.url);
+		redirect(308, canonical.pathname.replace(/^\/+/, '/') + canonical.search);
+	}
+	return resolve(event);
+};
 
-export const handle: Handle = handleParaglide;
+const handleParaglide: Handle = ({ event, resolve }) =>
+	paraglideMiddleware(event.request, ({ request, locale }) => {
+		return resolve(
+			{ ...event, request },
+			{
+				transformPageChunk: ({ html }) => html.replace('%paraglide.lang%', locale).replace('%paraglide.dir%', getTextDirection(locale))
+			}
+		);
+	});
+
+export const handle: Handle = sequence(handleBaseLocalePrefix, handleParaglide);

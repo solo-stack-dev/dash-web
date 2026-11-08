@@ -1,0 +1,11 @@
+# Cloudflare static asset headers. adapter-cloudflare copies this file into the build and appends its own block
+# (hashed `/_app/immutable/*` files, which include every screenshot: one year, immutable). Everything else is served
+# with `max-age=0, must-revalidate` by default, i.e. one revalidation round trip per file and navigation.
+# Fonts are not hashed but never change in place: a changed font gets a new file name (update app.html and layout.css).
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+
+/fonts/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400

@@ -1,54 +1,41 @@
-# sv
+# rallop-web
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Official website of **Rallop**, a time trial runner for Android and iOS: the landing page, support page, privacy policy and imprint that the Google Play and App Store listings link to.
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+SvelteKit 3 + Svelte 5 on Cloudflare Workers (fully prerendered), Tailwind CSS 4, mdsvex, Paraglide (`en` + `de`), enhanced-img, super-sitemap.
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Getting started
 
-To recreate this project with the same configuration:
+Requires Node `>=24.18` and pnpm.
 
 ```sh
-# recreate this project
-pnpm dlx sv@1.3.0 create --template minimal --types ts --add tailwindcss="plugins:none" enhanced-img sveltekit-adapter="adapter:cloudflare+cfTarget:workers" paraglide="languageTags:en, de+demo:no" experimental="features:async,remoteFunctions" --install pnpm .
+pnpm install
+pnpm dev
 ```
 
-## Adding features
+| Command                     | What it does                                                     |
+| --------------------------- | ---------------------------------------------------------------- |
+| `pnpm dev`                  | Dev server                                                       |
+| `pnpm check`                | Type check (also regenerates Worker types)                       |
+| `pnpm lint` / `pnpm format` | oxlint / oxfmt                                                   |
+| `pnpm build`                | Production build                                                 |
+| `pnpm preview`              | Build and run the Worker locally with `wrangler dev`             |
+| `pnpm copy <name>`          | Generate copy with gpt-6.1-sol from `docs/copy/<name>-prompt.md` |
+| `pnpm screens`              | Encode the selected game screenshots and the OG image            |
 
-Add features to your project with `sv add`:
+## Before launch
 
-```sh
-npx sv add
-```
+- Set the real domain in `vite.config.ts` (`origins`) and `wrangler.jsonc` (`routes`); search for `TODO(domain)`.
+- Put the store URLs into `src/lib/site.ts` once the listings are live, and swap the badges for the official artwork.
+- Update the privacy policy before a game version with ads ships (and add `static/app-ads.txt` for AdMob).
 
-For example, to add Tailwind CSS:
+## Docs
 
-```sh
-npx sv add tailwindcss
-```
+- [docs/PROJECT.md](docs/PROJECT.md): pages, copy rules, screenshots, open items
+- [AGENTS.md](AGENTS.md): rules for AI coding agents working in this repo
 
-## Developing
+## License
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
+All rights reserved. Rallop, its name, characters, artwork and screenshots, and the site's text belong to Peter Ruß. Lilita One and Nunito are licensed under the SIL Open Font License 1.1 (`static/fonts/OFL-*.txt`).

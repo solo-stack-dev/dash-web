@@ -1,1 +1,175 @@
+/*
+ * The game's own typefaces (SIL OFL 1.1, static/fonts/OFL-*.txt), self-hosted Google Fonts subsets split by unicode-range:
+ * the Latin files (preloaded in app.html) cover every EN/DE page; Latin Extended is fetched only when such a character
+ * appears (future locales).
+ * - Lilita One: headings and the wordmark, as in the game's menus
+ * - Nunito (variable weight): body text, as in the game's About screen
+ */
+@font-face {
+	font-family: 'Lilita One';
+	src: url('/fonts/LilitaOne-latin.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	unicode-range:
+		U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,
+		U+FFFD;
+}
+
+@font-face {
+	font-family: 'Lilita One';
+	src: url('/fonts/LilitaOne-latin-ext.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	unicode-range:
+		U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4,
+		U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+	font-family: 'Nunito';
+	src: url('/fonts/Nunito-latin-wght.woff2') format('woff2');
+	font-weight: 200 1000;
+	font-style: normal;
+	font-display: swap;
+	unicode-range:
+		U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,
+		U+FFFD;
+}
+
+@font-face {
+	font-family: 'Nunito';
+	src: url('/fonts/Nunito-latin-ext-wght.woff2') format('woff2');
+	font-weight: 200 1000;
+	font-style: normal;
+	font-display: swap;
+	unicode-range:
+		U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4,
+		U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 @import 'tailwindcss';
+
+/*
+ * Design tokens, sampled from the game: the mill at golden hour (app icon, title screen, walnut menu planks).
+ * One fixed warm dark theme, like the game itself. Each color becomes a utility (`bg-walnut`, `text-gold`, …).
+ */
+@theme {
+	--color-bark: #120d09;
+	--color-soot: #1b140e;
+	--color-walnut: #2a1d14;
+	--color-plank: #3d2a1b;
+	--color-grain: #5a4029;
+	--color-ember: #e0702b;
+	--color-amber: #f0a73a;
+	--color-gold: #f6c453;
+	--color-butter: #ffe08a;
+	--color-cream: #fff3da;
+	--color-parchment: #ecdcbc;
+	--color-dust: #b9a68a;
+	--color-frost: #9fd8e8;
+
+	--font-display: 'Lilita One', ui-rounded, 'Arial Rounded MT Bold', system-ui, sans-serif;
+	--font-sans: 'Nunito', ui-rounded, system-ui, sans-serif;
+
+	--radius-card: 1.75rem;
+	--shadow-plank: 0 1px 0 0 rgb(255 224 138 / 0.08) inset, 0 18px 40px -18px rgb(0 0 0 / 0.75);
+	--shadow-glow: 0 0 0 1px rgb(246 196 83 / 0.35), 0 20px 60px -20px rgb(240 167 58 / 0.55);
+
+	--ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@layer base {
+	html {
+		color-scheme: dark;
+		background: var(--color-bark);
+		color: var(--color-cream);
+		font-family: var(--font-sans);
+		-webkit-text-size-adjust: 100%;
+		scroll-behavior: smooth;
+		scroll-padding-top: 5rem;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
+
+		*,
+		*::before,
+		*::after {
+			animation-duration: 0.01ms !important;
+			animation-iteration-count: 1 !important;
+			transition-duration: 0.01ms !important;
+		}
+	}
+
+	body {
+		min-height: 100svh;
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	::selection {
+		background: var(--color-gold);
+		color: var(--color-bark);
+	}
+
+	:focus-visible {
+		outline: 3px solid var(--color-gold);
+		outline-offset: 3px;
+		border-radius: 0.5rem;
+	}
+
+	h1,
+	h2,
+	h3 {
+		font-family: var(--font-display);
+		font-weight: 400;
+		letter-spacing: 0.005em;
+		text-wrap: balance;
+	}
+
+	p {
+		text-wrap: pretty;
+	}
+}
+
+@utility font-display {
+	font-family: var(--font-display);
+	font-weight: 400;
+}
+
+/* Gold lettering with a dark rim, like the game's title: the wordmark and big headings */
+@utility text-gilded {
+	background: linear-gradient(180deg, var(--color-butter) 10%, var(--color-gold) 45%, var(--color-amber) 80%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	filter: drop-shadow(0 3px 0 rgb(42 29 20 / 0.95)) drop-shadow(0 10px 18px rgb(0 0 0 / 0.45));
+}
+
+/* Walnut plank surface of the game's menu panels */
+@utility plank {
+	background:
+		linear-gradient(180deg, rgb(255 224 138 / 0.06), transparent 40%), repeating-linear-gradient(178deg, rgb(255 255 255 / 0.015) 0 2px, transparent 2px 9px),
+		var(--color-walnut);
+	border: 1px solid rgb(90 64 41 / 0.7);
+	box-shadow: var(--shadow-plank);
+}
+
+@utility container-page {
+	width: 100%;
+	max-width: 76rem;
+	margin-inline: auto;
+	padding-inline: 1rem;
+
+	@media (width >= 40rem) {
+		padding-inline: 1.5rem;
+	}
+
+	@media (width >= 64rem) {
+		padding-inline: 2rem;
+	}
+}

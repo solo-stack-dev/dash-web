@@ -1,0 +1,439 @@
+{
+  "generated": "2026-11-08",
+  "game": "Rallop (Godot 4.7.2)",
+  "render": "window 2560x1440, content scale 1280x720 canvas_items (2x)",
+  "capture_script": "D:/repos/dash/artifacts/web-shots/capture_web_shots.gd (git-ignored)",
+  "shots": [
+    {
+      "file": "01-mill-sawtooth-hall-blade.png",
+      "hud": true,
+      "description": "Squirrel mid-hop over a gap toward a spinning circular saw blade, gold ghost just ahead, mill flywheel machinery and a sunlit window behind; HUD split +0.22 s.",
+      "world": "The Mill",
+      "course_id": "sawtooth_hall",
+      "course_name": "Sawtooth Hall",
+      "tick": 1428,
+      "time_s": 11.9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "clean/01-mill-sawtooth-hall-blade.png",
+      "hud": false,
+      "description": "Squirrel mid-hop over a gap toward a spinning circular saw blade, gold ghost just ahead, mill flywheel machinery and a sunlit window behind (same frame, HUD hidden).",
+      "world": "The Mill",
+      "course_id": "sawtooth_hall",
+      "course_name": "Sawtooth Hall",
+      "tick": 1428,
+      "time_s": 11.9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "02-mill-timber-swing.png",
+      "hud": true,
+      "description": "Squirrel gliding upward past a swinging log-end weight with the gold ghost trailing behind, stacked timber and rope pulley in the background; HUD split -0.20 s.",
+      "world": "The Mill",
+      "course_id": "level_5",
+      "course_name": "Timber Swing",
+      "tick": 4944,
+      "time_s": 41.2,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn -0.20 s behind the player"
+    },
+    {
+      "file": "clean/02-mill-timber-swing.png",
+      "hud": false,
+      "description": "Squirrel gliding upward past a swinging log-end weight with the gold ghost trailing behind, stacked timber and rope pulley in the background (same frame, HUD hidden).",
+      "world": "The Mill",
+      "course_id": "level_5",
+      "course_name": "Timber Swing",
+      "tick": 4944,
+      "time_s": 41.2,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn -0.20 s behind the player"
+    },
+    {
+      "file": "03-kitewoods-updraft-valley-kites.png",
+      "hud": true,
+      "description": "Squirrel flying with membrane open high over three giant koi kites, gold ghost alongside, autumn valley and a kite airship in the sky.",
+      "world": "The Kitewoods",
+      "course_id": "w2_updraft_valley",
+      "course_name": "Updraft Valley",
+      "tick": 1440,
+      "time_s": 12.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "clean/03-kitewoods-updraft-valley-kites.png",
+      "hud": false,
+      "description": "Squirrel flying with membrane open high over three giant koi kites, gold ghost alongside, autumn valley and a kite airship in the sky. (same frame, HUD hidden).",
+      "world": "The Kitewoods",
+      "course_id": "w2_updraft_valley",
+      "course_name": "Updraft Valley",
+      "tick": 1440,
+      "time_s": 12.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "04-kitewoods-morning-market-bells.png",
+      "hud": true,
+      "description": "Squirrel dropping off a rooftop ledge between swinging bronze bells, gold ghost just ahead, sunset lake village below; HUD split +0.22 s.",
+      "world": "The Kitewoods",
+      "course_id": "w2_last_lanterns",
+      "course_name": "Morning Market",
+      "tick": 4896,
+      "time_s": 40.8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "clean/04-kitewoods-morning-market-bells.png",
+      "hud": false,
+      "description": "Squirrel dropping off a rooftop ledge between swinging bronze bells, gold ghost just ahead, sunset lake village below (same frame, HUD hidden).",
+      "world": "The Kitewoods",
+      "course_id": "w2_last_lanterns",
+      "course_name": "Morning Market",
+      "tick": 4896,
+      "time_s": 40.8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "05-frostwell-thawgate-icefalls.png",
+      "hud": true,
+      "description": "Squirrel hopping along a stone walkway beside a frozen waterfall arch, gold ghost just ahead, ice cathedral ruins and reflective water.",
+      "world": "Frostwell Ruins",
+      "course_id": "w3_thawgate",
+      "course_name": "Thawgate",
+      "tick": 252,
+      "time_s": 2.1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "clean/05-frostwell-thawgate-icefalls.png",
+      "hud": false,
+      "description": "Squirrel hopping along a stone walkway beside a frozen waterfall arch, gold ghost just ahead, ice cathedral ruins and reflective water. (same frame, HUD hidden).",
+      "world": "Frostwell Ruins",
+      "course_id": "w3_thawgate",
+      "course_name": "Thawgate",
+      "tick": 252,
+      "time_s": 2.1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "06-frostwell-splintered-baths.png",
+      "hud": true,
+      "description": "Squirrel rising above a flooded bath basin toward an upper ledge, gold ghost just ahead, icy vaulted bathhouse and an acorn on the ledge.",
+      "world": "Frostwell Ruins",
+      "course_id": "w3_splintered_baths",
+      "course_name": "Splintered Baths",
+      "tick": 432,
+      "time_s": 3.6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "clean/06-frostwell-splintered-baths.png",
+      "hud": false,
+      "description": "Squirrel rising above a flooded bath basin toward an upper ledge, gold ghost just ahead, icy vaulted bathhouse and an acorn on the ledge. (same frame, HUD hidden).",
+      "world": "Frostwell Ruins",
+      "course_id": "w3_splintered_baths",
+      "course_name": "Splintered Baths",
+      "tick": 432,
+      "time_s": 3.6,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "07-bloomworks-iris-foundry-petals.png",
+      "hud": true,
+      "description": "Squirrel running along a white rail approaching two turning petal rotors, gold ghost trailing, wisteria-draped foundry spires behind.",
+      "world": "Bloomworks",
+      "course_id": "w4_iris_foundry",
+      "course_name": "Iris Foundry",
+      "tick": 5520,
+      "time_s": 46.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn -0.20 s behind the player"
+    },
+    {
+      "file": "clean/07-bloomworks-iris-foundry-petals.png",
+      "hud": false,
+      "description": "Squirrel running along a white rail approaching two turning petal rotors, gold ghost trailing, wisteria-draped foundry spires behind. (same frame, HUD hidden).",
+      "world": "Bloomworks",
+      "course_id": "w4_iris_foundry",
+      "course_name": "Iris Foundry",
+      "tick": 5520,
+      "time_s": 46.0,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn -0.20 s behind the player"
+    },
+    {
+      "file": "08-bloomworks-seed-freight.png",
+      "hud": true,
+      "description": "Squirrel leaping above a spinning petal rotor on a brass rail, gold ghost close by, flowering greenhouse with hanging planters and waterfalls.",
+      "world": "Bloomworks",
+      "course_id": "w4_heart_in_bloom",
+      "course_name": "Seed Freight",
+      "tick": 3468,
+      "time_s": 28.9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "clean/08-bloomworks-seed-freight.png",
+      "hud": false,
+      "description": "Squirrel leaping above a spinning petal rotor on a brass rail, gold ghost close by, flowering greenhouse with hanging planters and waterfalls. (same frame, HUD hidden).",
+      "world": "Bloomworks",
+      "course_id": "w4_heart_in_bloom",
+      "course_name": "Seed Freight",
+      "tick": 3468,
+      "time_s": 28.9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn +0.22 s ahead of the player"
+    },
+    {
+      "file": "09-citadel-cannon-battery.png",
+      "hud": true,
+      "description": "Squirrel airborne between battlements as a wall cannon fires a cannonball toward it, gold ghost trailing, sunlit coastal citadel and lighthouse.",
+      "world": "Sunbanner Citadel",
+      "course_id": "w5_cannon_battery",
+      "course_name": "Cannon Battery",
+      "tick": 1092,
+      "time_s": 9.1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn -0.20 s behind the player"
+    },
+    {
+      "file": "clean/09-citadel-cannon-battery.png",
+      "hud": false,
+      "description": "Squirrel airborne between battlements as a wall cannon fires a cannonball toward it, gold ghost trailing, sunlit coastal citadel and lighthouse. (same frame, HUD hidden).",
+      "world": "Sunbanner Citadel",
+      "course_id": "w5_cannon_battery",
+      "course_name": "Cannon Battery",
+      "tick": 1092,
+      "time_s": 9.1,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn -0.20 s behind the player"
+    },
+    {
+      "file": "10-citadel-siege-convoy.png",
+      "hud": true,
+      "description": "Squirrel hopping over a powder-blast marker with two cannons and an incoming ball ahead, gold ghost trailing, harbour cranes and citadel across the water.",
+      "world": "Sunbanner Citadel",
+      "course_id": "w5_siege_convoy",
+      "course_name": "Siege Convoy",
+      "tick": 1176,
+      "time_s": 9.8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn -0.20 s behind the player"
+    },
+    {
+      "file": "clean/10-citadel-siege-convoy.png",
+      "hud": false,
+      "description": "Squirrel hopping over a powder-blast marker with two cannons and an incoming ball ahead, gold ghost trailing, harbour cranes and citadel across the water. (same frame, HUD hidden).",
+      "world": "Sunbanner Citadel",
+      "course_id": "w5_siege_convoy",
+      "course_name": "Siege Convoy",
+      "tick": 1176,
+      "time_s": 9.8,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "locale": "en",
+      "source": "real Main scene driven by the course's packaged gold_replay inputs; ghost drawn -0.20 s behind the player"
+    },
+    {
+      "file": "01-mill-sawtooth-hall-blade-de.png",
+      "world": "The Mill",
+      "course_id": "sawtooth_hall",
+      "course_name": "Sawtooth Hall",
+      "tick": 1428,
+      "time_s": 11.9,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "hud": true,
+      "locale": "de",
+      "description": "German-locale version of 01: same frame with German HUD labels (Dieser Lauf, Gespeichert, Zwischenzeit)."
+    },
+    {
+      "file": "menu-title.png",
+      "world": null,
+      "course_id": null,
+      "course_name": null,
+      "tick": null,
+      "time_s": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "hud": false,
+      "locale": "en",
+      "description": "Title screen: Rallop logo, Continue (World 4 Level 1 Glasswake), Show levels, Browse worlds, acorn 32/80 and gold 12/40 counters, squirrel and gold ghost in the mill.",
+      "source": "real Main menu screens with a disposable fixture profile (seeded medals/acorns, not played runs)"
+    },
+    {
+      "file": "menu-title-de.png",
+      "world": null,
+      "course_id": null,
+      "course_name": null,
+      "tick": null,
+      "time_s": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "hud": false,
+      "locale": "de",
+      "description": "German title screen (Weiter, Level zeigen, Welten entdecken, Einstellungen).",
+      "source": "real Main menu screens with a disposable fixture profile (seeded medals/acorns, not played runs)"
+    },
+    {
+      "file": "menu-worlds.png",
+      "world": null,
+      "course_id": null,
+      "course_name": null,
+      "tick": null,
+      "time_s": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "hud": false,
+      "locale": "en",
+      "description": "World browser carousel centred on World 2 The Kitewoods with progress bar and medal counts; The Mill and Frostwell Ruins cards at the sides.",
+      "source": "real Main menu screens with a disposable fixture profile (seeded medals/acorns, not played runs)"
+    },
+    {
+      "file": "menu-courses.png",
+      "world": null,
+      "course_id": null,
+      "course_name": null,
+      "tick": null,
+      "time_s": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "hud": false,
+      "locale": "en",
+      "description": "Kitewoods course list (8 courses with medals, acorns, best times; 2 locked specials) with Morning Market detail card and Race button.",
+      "source": "real Main menu screens with a disposable fixture profile (seeded medals/acorns, not played runs)"
+    },
+    {
+      "file": "menu-courses-frostwell.png",
+      "world": null,
+      "course_id": null,
+      "course_name": null,
+      "tick": null,
+      "time_s": null,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "hud": false,
+      "locale": "en",
+      "description": "Frostwell Ruins course list with Splintered Baths detail card (best time, gold ghost, silver and bronze targets).",
+      "source": "real Main menu screens with a disposable fixture profile (seeded medals/acorns, not played runs)"
+    },
+    {
+      "file": "menu-results.png",
+      "world": "Sunbanner Citadel",
+      "course_id": "w5_cannon_battery",
+      "course_name": "Cannon Battery",
+      "tick": null,
+      "time_s": 44.78,
+      "resolution": [
+        2560,
+        1440
+      ],
+      "hud": false,
+      "locale": "en",
+      "description": "Results after a real gold-replay run of Cannon Battery: New personal best 00:44.78, improved by 1.270 s, gold medal, 'Dead even with the ghost' ribbon, acorn slots, Race Catapult Court button.",
+      "source": "real Main finish/results flow after driving the gold_replay; previous best 00:46.05 is a fixture record"
+    }
+  ]
+}
