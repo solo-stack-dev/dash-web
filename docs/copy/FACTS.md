@@ -23,6 +23,6 @@ FACTS (use only these, invent nothing):
 - Languages in the game right now: English and German.
 - Price: free download.
 - Platforms: Android (Google Play) and iOS (App Store). NOT released yet, no release date: say "coming soon" at most.
-- Made by Solo Stack, the one person studio of Peter Ruß in Augsburg, Germany. Built with the Godot Engine. The art has a painted look (it is generated art: never say "hand painted" or "hand drawn").
+- Made by Solo Stack, the one person studio of Peter Ruß in Germany. Never name a city or region. Built with the Godot Engine. The art has a painted look (it is generated art: never say "hand painted" or "hand drawn").
 - Do NOT claim: "no ads", "no in app purchases", number of downloads, ratings, awards, release dates, multiplayer, online leaderboards, more languages, tablet or controller support.
 ```

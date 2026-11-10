@@ -97,7 +97,6 @@
 		"error_generic_text": "Something went wrong while loading this page; try again or head back home.",
 		"error_back_home": "Back to the homepage",
 		"privacy_meta_description": "Rallop's current version collects no personal data. Progress, records and settings are stored only on your device.",
-		"imprint_meta_description": "Legal information for Rallop and Solo Stack, Peter Ruß's studio in Augsburg, Germany.",
 		"legal_updated": "Last updated: {date}"
 	},
 	"de": {
@@ -198,7 +197,6 @@
 		"error_generic_text": "Beim Laden ist etwas schiefgelaufen; versuch es erneut oder geh zurück zur Startseite.",
 		"error_back_home": "Zurück zur Startseite",
 		"privacy_meta_description": "Datenschutz bei Rallop: Die aktuelle Version erhebt keine personenbezogenen Daten und speichert Fortschritt, Rekorde und Einstellungen nur auf deinem Gerät.",
-		"imprint_meta_description": "Impressum zu Rallop und Solo Stack, dem Studio von Peter Ruß in Augsburg, Deutschland.",
 		"legal_updated": "Stand: {date}"
 	}
 }
