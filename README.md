@@ -1,6 +1,6 @@
-# rallop-web
+# dashnut-web
 
-Official website of **Rallop**, a time trial runner for Android and iOS: the landing page, support page, privacy policy and imprint that the Google Play and App Store listings link to.
+Official website of **Dashnut**, a time trial runner for Android and iOS: the landing page, support page, privacy policy and imprint that the Google Play and App Store listings link to.
 
 ## Stack
 
@@ -38,4 +38,4 @@ pnpm dev
 
 ## License
 
-All rights reserved. Rallop, its name, characters, artwork and screenshots, and the site's text belong to Peter Ruß. Lilita One and Nunito are licensed under the SIL Open Font License 1.1 (`static/fonts/OFL-*.txt`).
+Proprietary, all rights reserved: see [LICENSE.md](LICENSE.md). Dashnut, its name, characters, artwork and screenshots, and the site's text belong to Peter Ruß. Lilita One and Nunito are licensed under the SIL Open Font License 1.1 (`static/fonts/OFL-*.txt`).

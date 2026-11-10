@@ -1,4 +1,4 @@
-Übersetze die folgende englische Datenschutzerklärung für das Handyspiel Rallop und seine Website vollständig ins Deutsche (Rechtsstand Deutschland, November 2026). Keine Werkzeuge benutzen.
+Übersetze die folgende englische Datenschutzerklärung für das Handyspiel Dashnut und seine Website vollständig ins Deutsche (Rechtsstand Deutschland, November 2026). Keine Werkzeuge benutzen.
 
 Anforderungen:
 

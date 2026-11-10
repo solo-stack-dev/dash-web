@@ -12,8 +12,8 @@ import { defineConfig, type Plugin } from 'vite';
 // `dev` and local `preview` leave it unset.
 // TODO(domain): replace the placeholder domain here and in wrangler.jsonc (`routes`) once it is registered.
 const origins: Record<string, string> = {
-	staging: 'https://staging.rallop.example',
-	production: 'https://rallop.example'
+	staging: 'https://staging.dashnut.example',
+	production: 'https://dashnut.example'
 };
 
 // enhanced-img encodes AVIF + WebP + a fallback, and the fallback is PNG for every image with alpha (JPEG otherwise):
@@ -22,7 +22,7 @@ const origins: Record<string, string> = {
 // resolves its URL through Vite too, so this covers both forms. An import that sets its own `format` is left alone.
 function enhancedImagesWithoutLegacyFallback(): Plugin {
 	return {
-		name: 'rallop:enhanced-img-webp-fallback',
+		name: 'dashnut:enhanced-img-webp-fallback',
 		enforce: 'pre',
 		resolveId(source, importer, options) {
 			const query = source.split('?')[1];

@@ -2,7 +2,7 @@ Stand: 8. November 2026
 
 ## 1. Datenschutz auf einen Blick
 
-Diese Datenschutzerklärung gilt für Rallop Version 1.0 für Android über Google Play und für iOS über den App Store sowie für die offizielle Website, auf der diese Datenschutzerklärung bereitgestellt wird.
+Diese Datenschutzerklärung gilt für Dashnut Version 1.0 für Android über Google Play und für iOS über den App Store sowie für die offizielle Website, auf der diese Datenschutzerklärung bereitgestellt wird.
 
 - Das Spiel funktioniert vollständig offline. Es übermittelt mir als Entwickler keine personenbezogenen Daten oder Spieldaten.
 - Spielfortschritt, Rekorde, Wiederholungen deiner persönlichen Bestläufe und Einstellungen werden lokal auf deinem Gerät gespeichert. Abhängig von deinen Einstellungen kann dein Betriebssystem App-Daten in Sicherungen aufnehmen.
@@ -23,7 +23,7 @@ E-Mail: [business@solo-stack.dev](mailto:business@solo-stack.dev)
 
 Solo Stack ist mein Einpersonenstudio. Du kannst diese E-Mail-Adresse für alle Fragen und Anfragen zum Datenschutz nutzen.
 
-## 3. Daten in der Rallop-App
+## 3. Daten in der Dashnut-App
 
 ### Lokale Spieldaten
 
@@ -65,7 +65,7 @@ Die Infoansicht kann Links zur Supportseite oder zu dieser Datenschutzerklärung
 
 ## 4. Google Play und der App Store
 
-Wenn du Rallop über einen Store herunterlädst, verarbeitet der jeweilige Store Daten, beispielsweise im Zusammenhang mit deinem Store-Konto und deinem Downloadverlauf.
+Wenn du Dashnut über einen Store herunterlädst, verarbeitet der jeweilige Store Daten, beispielsweise im Zusammenhang mit deinem Store-Konto und deinem Downloadverlauf.
 
 Die Store-Betreiber sind eigenständige Verantwortliche. Für diese Verarbeitung gelten ihre jeweiligen Datenschutzerklärungen.
 

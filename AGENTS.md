@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repo is the official website of **Rallop**, the mobile game in `D:\repos\dash` (Godot, separate repo). The site is the game's home for Google Play and the App Store: a landing page with store style screenshots, a support page, the privacy policy and the imprint. Read [docs/PROJECT.md](docs/PROJECT.md) before changing pages or copy.
+This repo is the official website of **Dashnut**, the mobile game in `D:\repos\dash` (Godot, separate repo). The site is the game's home for Google Play and the App Store: a landing page with store style screenshots, a support page, the privacy policy and the imprint. Read [docs/PROJECT.md](docs/PROJECT.md) before changing pages or copy.
 
 ## Hard rule: public text comes from `gpt-6.1-sol`
 
@@ -19,7 +19,7 @@ SvelteKit 3 + Svelte 5 (runes, experimental `async`) on Cloudflare Workers, full
 
 - **Everything is static** (`export const prerender = true` in the root layout). If data loading or a form is ever needed, use SvelteKit remote functions (`query`, `prerender`, `command`, `form` in `*.remote.ts`) validated with valibot, not `+page.server.ts` loads or API routes.
 - Import from `src/lib` via the `#lib/*` subpath import (see `package.json` `imports`).
-- UI strings go through Paraglide messages in `messages/{locale}.json`; `src/lib/paraglide` is generated, never edit it. Game proper nouns (world and course names, "Rallop") stay in code.
+- UI strings go through Paraglide messages in `messages/{locale}.json`; `src/lib/paraglide` is generated, never edit it. Game proper nouns (world and course names, "Dashnut") stay in code.
 - Game facts and publisher details live in `src/lib/site.ts`; store URLs there switch the "coming soon" badges to links.
 - **Performance is a feature.** Images through enhanced-img (AVIF/WebP), animations cheap and paused under `prefers-reduced-motion`. Ask before adding a heavy dependency.
 - pnpm only. New packages are subject to a 5 day minimum release age (`pnpm-workspace.yaml`).

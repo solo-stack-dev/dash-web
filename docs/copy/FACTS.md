@@ -1,13 +1,13 @@
 # Verified facts for copy prompts
 
-Paste this block into every copy prompt. Source: the game repo (`D:\repos\dash`: README, `docs/Rallop-Game-Design.md`,
+Paste this block into every copy prompt. Source: the game repo (`D:\repos\dash`: README, `docs/Dashnut-Game-Design.md`,
 `game/presentation/course_catalog.gd`, `game/i18n/en.po`, `export_presets.cfg`) and the owner's publisher record,
 checked 2026-11-08. Change a fact here first, then regenerate the copy that uses it.
 
 ```text
 FACTS (use only these, invent nothing):
-- Game name: Rallop. Official subtitle: "Flying squirrel. Beat the ghost."
-- Genre: a 2D time trial auto runner for phones, played in landscape. Rallop is a small flying squirrel with black fur and a gold belly who always runs to the right.
+- Game name: Dashnut. Official subtitle: "Flying squirrel. Beat the ghost."
+- Genre: a 2D time trial auto runner for phones, played in landscape. Dashnut is a small flying squirrel with black fur and a gold belly who always runs to the right.
 - Each course is short (about 45 seconds). The clock is the opponent. A golden ghost runs a fast line ahead of you; match or beat its time to earn gold. The gold ghost can be hidden in Settings; a ghost of your own personal best can be switched on.
 - Medals: bronze, silver and gold per course, plus local personal best times.
 - Five worlds with eight courses each, plus the tutorial "Find your feet":

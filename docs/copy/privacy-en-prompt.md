@@ -1,4 +1,4 @@
-Write the privacy policy for the mobile game Rallop and its official website. One policy covers both: the app (Android via Google Play, iOS via the App Store) and the website that hosts this policy. Store reviewers and players read it; it must be accurate, complete under the GDPR and German law (TDDDG), and easy to read. Legal status: November 2026. Do not use tools.
+Write the privacy policy for the mobile game Dashnut and its official website. One policy covers both: the app (Android via Google Play, iOS via the App Store) and the website that hosts this policy. Store reviewers and players read it; it must be accurate, complete under the GDPR and German law (TDDDG), and easy to read. Legal status: November 2026. Do not use tools.
 
 {{FACTS}}
 

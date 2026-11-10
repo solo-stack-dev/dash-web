@@ -1,6 +1,6 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
-	"name": "rallop-web",
+	"name": "dashnut-web",
 	"compatibility_date": "2026-11-08",
 	"compatibility_flags": ["nodejs_als"],
 	"main": ".svelte-kit/cloudflare/_worker.js",
@@ -30,10 +30,10 @@
 	// TODO(domain): the patterns are placeholders, also in vite.config.ts (`origins`). Use the same domain in both.
 	"env": {
 		"staging": {
-			"routes": [{ "pattern": "staging.rallop.example", "custom_domain": true }]
+			"routes": [{ "pattern": "staging.dashnut.example", "custom_domain": true }]
 		},
 		"production": {
-			"routes": [{ "pattern": "rallop.example", "custom_domain": true }]
+			"routes": [{ "pattern": "dashnut.example", "custom_domain": true }]
 		}
 	}
 }

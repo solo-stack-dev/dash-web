@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-08",
-  "game": "Rallop (Godot 4.7.2)",
+  "game": "Dashnut (Godot 4.7.2)",
   "render": "window 2560x1440, content scale 1280x720 canvas_items (2x)",
   "capture_script": "D:/repos/dash/artifacts/web-shots/capture_web_shots.gd (git-ignored)",
   "shots": [
@@ -352,7 +352,7 @@
       ],
       "hud": false,
       "locale": "en",
-      "description": "Title screen: Rallop logo, Continue (World 4 Level 1 Glasswake), Show levels, Browse worlds, acorn 32/80 and gold 12/40 counters, squirrel and gold ghost in the mill.",
+      "description": "Title screen: Dashnut logo, Continue (World 4 Level 1 Glasswake), Show levels, Browse worlds, acorn 32/80 and gold 12/40 counters, squirrel and gold ghost in the mill.",
       "source": "real Main menu screens with a disposable fixture profile (seeded medals/acorns, not played runs)"
     },
     {

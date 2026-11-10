@@ -1,4 +1,4 @@
-You are the copywriter for the official website of the mobile game Rallop. Two strings of the site need a correction. Do not use tools. Reply with JSON only, no markdown fences.
+You are the copywriter for the official website of the mobile game Dashnut. Two strings of the site need a correction. Do not use tools. Reply with JSON only, no markdown fences.
 
 {{FACTS}}
 

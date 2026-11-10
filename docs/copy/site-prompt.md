@@ -1,10 +1,10 @@
-You are the copywriter for the official website of the mobile game Rallop. The site is the game's home for Google Play and the App Store: one landing page plus a support page and legal pages. Visitors are players (and store reviewers) who want to know quickly what the game is and how it plays.
+You are the copywriter for the official website of the mobile game Dashnut. The site is the game's home for Google Play and the App Store: one landing page plus a support page and legal pages. Visitors are players (and store reviewers) who want to know quickly what the game is and how it plays.
 
 Do not use tools. Reply with JSON only, no markdown fences.
 
 {{FACTS}}
 
-Voice: playful, warm and confident, short and concrete like a good store listing. Speak to the player as "you" (German: du). No marketing clichés ("ultimate", "epic", "revolutionary", "addictive"), at most two exclamation marks in the whole English set, no emojis, no hyphens or dashes as punctuation (write natural sentences instead; words that need a hyphen in normal spelling are fine). Do not invent facts. Proper nouns stay unchanged in German: Rallop, The Mill, The Kitewoods, Frostwell Ruins, Bloomworks, Sunbanner Citadel, Find your feet, Prism, Google Play, App Store, Solo Stack.
+Voice: playful, warm and confident, short and concrete like a good store listing. Speak to the player as "you" (German: du). No marketing clichés ("ultimate", "epic", "revolutionary", "addictive"), at most two exclamation marks in the whole English set, no emojis, no hyphens or dashes as punctuation (write natural sentences instead; words that need a hyphen in normal spelling are fine). Do not invent facts. Proper nouns stay unchanged in German: Dashnut, The Mill, The Kitewoods, Frostwell Ruins, Bloomworks, Sunbanner Citadel, Find your feet, Prism, Google Play, App Store, Solo Stack.
 
 German is a natural adaptation, not a literal translation, and respects the same limits.
 
@@ -23,12 +23,12 @@ Site wide
 - site_footer_made_by: footer words before the link "Solo Stack", e.g. "A game by" (3 words)
 - site_footer_copyright: copyright line, must contain the placeholder {year} and the name Peter Ruß, e.g. "© {year} Peter Ruß"
 - store_badge_coming_soon: small label on the store badges while the game is not released (2 words)
-- store_badge_google_play_label: accessible label "Rallop on Google Play, coming soon" (8 words)
-- store_badge_app_store_label: accessible label "Rallop on the App Store, coming soon" (8 words)
+- store_badge_google_play_label: accessible label "Dashnut on Google Play, coming soon" (8 words)
+- store_badge_app_store_label: accessible label "Dashnut on the App Store, coming soon" (8 words)
 
 Home: meta
 
-- home_meta_title: HTML title of the homepage, must start with "Rallop" (8 words)
+- home_meta_title: HTML title of the homepage, must start with "Dashnut" (8 words)
 - home_meta_description: meta description for search and link previews (25 words, one or two sentences)
 - home_og_image_alt: alt text of the link preview image: the squirrel racing the golden ghost in The Mill (15 words)
 
@@ -37,7 +37,7 @@ Home: hero
 - home_hero_eyebrow: tiny label above the title, a platform and price hint (4 words)
 - home_hero_subtitle: the official subtitle; keep "Flying squirrel. Beat the ghost." in English and adapt it in German
 - home_hero_intro: two sentences that explain the game (35 words)
-- home_hero_image_alt: alt text of the hero screenshot: Rallop leaping through The Mill with the golden ghost just ahead (15 words)
+- home_hero_image_alt: alt text of the hero screenshot: Dashnut leaping through The Mill with the golden ghost just ahead (15 words)
 
 Home: screenshots section (store style shots with a big caption on each)
 
@@ -89,7 +89,7 @@ Home: closing call to action
 
 Support page
 
-- support_meta_title: HTML title, must contain "Rallop" (5 words)
+- support_meta_title: HTML title, must contain "Dashnut" (5 words)
 - support_meta_description: meta description (25 words)
 - support_title: page heading (2 words)
 - support_intro: one or two sentences on how to get help (30 words)

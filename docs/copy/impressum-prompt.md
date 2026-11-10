@@ -1,8 +1,8 @@
-Schreibe den Text für das Impressum der Website zum Handyspiel „Rallop“ (offizielle Website des Spiels für Google Play und den App Store: Startseite, Support Seite, Datenschutzerklärung). Rechtsstand: Deutschland, November 2026.
+Schreibe den Text für das Impressum der Website zum Handyspiel „Dashnut“ (offizielle Website des Spiels für Google Play und den App Store: Startseite, Support Seite, Datenschutzerklärung). Rechtsstand: Deutschland, November 2026.
 
 Fakten (nur diese verwenden, nichts erfinden):
 
-- Anbieter: Peter Ruß, Einzelunternehmer (Nebenerwerb), kein Handelsregistereintrag, keine Beschäftigten, keine zusätzliche Firmenbezeichnung. „Solo Stack“ ist nur der Projekt und Entwicklername, kein Firmenname. „Rallop“ ist der Name des Spiels.
+- Anbieter: Peter Ruß, Einzelunternehmer (Nebenerwerb), kein Handelsregistereintrag, keine Beschäftigten, keine zusätzliche Firmenbezeichnung. „Solo Stack“ ist nur der Projekt und Entwicklername, kein Firmenname. „Dashnut“ ist der Name des Spiels.
 - Anschrift: c/o POSTFLEX PFX-656-644, Emsdettener Straße 10, 48268 Greven, Deutschland
 - E-Mail: business@solo-stack.dev
 - Kein Kontaktformular. Keine Telefonnummer angeben.

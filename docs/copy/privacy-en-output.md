@@ -2,7 +2,7 @@ Last updated: 8 November 2026
 
 ## 1. Privacy at a glance
 
-This policy covers Rallop version 1.0 for Android via Google Play and iOS via the App Store, and the official website that hosts this policy.
+This policy covers Dashnut version 1.0 for Android via Google Play and iOS via the App Store, and the official website that hosts this policy.
 
 - The game works fully offline. It sends no personal data or gameplay data to the developer.
 - Progress, records, personal best replays and settings are stored locally on your device. Your operating system may include app data in backups, depending on your settings.
@@ -23,7 +23,7 @@ Email: [business@solo-stack.dev](mailto:business@solo-stack.dev)
 
 Solo Stack is my one person studio. You can use this email address for all privacy questions and requests.
 
-## 3. Data in the Rallop app
+## 3. Data in the Dashnut app
 
 ### Local game data
 
@@ -65,7 +65,7 @@ The About screen may open links to the support page or this policy in your brows
 
 ## 4. Google Play and the App Store
 
-Downloading Rallop through a store involves processing by that store, for example in connection with your store account and download history.
+Downloading Dashnut through a store involves processing by that store, for example in connection with your store account and download history.
 
 The store operators are independent controllers. Their respective privacy policies apply to that processing.
 
