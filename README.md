@@ -27,7 +27,6 @@ pnpm dev
 
 ## Before launch
 
-- Set the real domain in `vite.config.ts` (`origins`) and `wrangler.jsonc` (`routes`); search for `TODO(domain)`.
 - Put the store URLs into `src/lib/site.ts` once the listings are live, and swap the badges for the official artwork.
 - Update the privacy policy before a game version with ads ships (and add `static/app-ads.txt` for AdMob).
 

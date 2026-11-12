@@ -40,8 +40,7 @@ Captured from the real game with Godot 4.7.2 at 2560×1440 (content scale 1280×
 
 ## Open items (owner)
 
-- **Domain**: placeholder `dashnut.example` in `vite.config.ts` and `wrangler.jsonc` (`TODO(domain)`).
+- **Domain**: `dashnut.app` (production) and `staging.dashnut.app`, set in `vite.config.ts` (`origins`) and `wrangler.jsonc` (`routes`).
 - **Store URLs**: `src/lib/site.ts` → `STORE_URLS`; then replace the generic badges with the official Google Play / App Store badge artwork.
 - **Ads**: before the ads build ships, update `docs/copy/FACTS.md` and the privacy prompt with the ad provider, regenerate both privacy texts, update the support FAQ answer about data, and add `static/app-ads.txt` (AdMob).
-- **Game links**: set `SUPPORT_URL` and `PRIVACY_URL` in the game's `game/presentation/about_menu.gd` to `/support` and `/privacy` on the final domain.
 - **USt-IdNr.**: replace „beantragt“ in the imprint once it is assigned (regenerate with the impressum prompt).

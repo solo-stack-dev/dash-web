@@ -10,11 +10,14 @@ import { defineConfig, type Plugin } from 'vite';
 // Public origin per build mode (`vite build --mode <mode>`). SvelteKit uses it as `page.url.origin` while
 // prerendering (absolute hreflang/canonical/OG URLs, sitemap, robots.txt), so it must match where the build is served.
 // `dev` and local `preview` leave it unset.
-// TODO(domain): replace the placeholder domain here and in wrangler.jsonc (`routes`) once it is registered.
 const origins: Record<string, string> = {
-	staging: 'https://staging.dashnut.example',
-	production: 'https://dashnut.example'
+	staging: 'https://staging.dashnut.app',
+	production: 'https://dashnut.app'
 };
+
+// SvelteKit loads this config again for its later build steps in the same process, and those loads see `mode` as
+// 'production' even under `--mode staging`. The first load (the CLI's real mode) wins and is kept for the later ones.
+const buildMode = (mode: string) => (process.env.DASHNUT_BUILD_MODE ??= mode);
 
 // enhanced-img encodes AVIF + WebP + a fallback, and the fallback is PNG for every image with alpha (JPEG otherwise):
 // files no browser fetches, since every supported browser takes WebP. Appending `format=avif;webp` to every enhanced
@@ -54,7 +57,7 @@ export default defineConfig(({ mode }) => ({
 			preprocess: [mdsvex({ extensions: ['.md'] })],
 			extensions: ['.svelte', '.md'],
 			experimental: { remoteFunctions: true },
-			paths: { origin: origins[mode] },
+			paths: { origin: origins[buildMode(mode)] },
 			inspector: true
 		}),
 

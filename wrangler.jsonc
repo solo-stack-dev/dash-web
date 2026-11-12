@@ -27,13 +27,12 @@
 	},
 	// Every page is prerendered: the Worker only serves static assets and the `/de/…` → `/…` style redirects
 	// (src/hooks.server.ts). No bindings, no secrets.
-	// TODO(domain): the patterns are placeholders, also in vite.config.ts (`origins`). Use the same domain in both.
 	"env": {
 		"staging": {
-			"routes": [{ "pattern": "staging.dashnut.example", "custom_domain": true }]
+			"routes": [{ "pattern": "staging.dashnut.app", "custom_domain": true }]
 		},
 		"production": {
-			"routes": [{ "pattern": "dashnut.example", "custom_domain": true }]
+			"routes": [{ "pattern": "dashnut.app", "custom_domain": true }]
 		}
 	}
 }
