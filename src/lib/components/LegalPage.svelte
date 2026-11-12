@@ -2,6 +2,8 @@
 	@component
 	Frame of the legal pages (privacy, imprint): SEO tags plus readable Markdown typography. The content locale sets `lang`
 	and the canonical URL; the imprint passes `de` because its text is German in every locale.
+	`noindex, follow`: kept out of search results but crawlable (robots.txt must not block them, or the tag goes unseen) and
+	excluded from the sitemap (src/routes/sitemap.xml). The store review only needs the privacy URL to load, not to rank.
 -->
 <script lang="ts">
 	import type { Snippet } from 'svelte';
@@ -30,6 +32,10 @@
 </script>
 
 <Seo title={`${title} · ${GAME_NAME}`} {description} {path} locale={canonicalLocale} />
+
+<svelte:head>
+	<meta name="robots" content="noindex, follow" />
+</svelte:head>
 
 <article class="container-page max-w-3xl pt-10 pb-8 sm:pt-16">
 	<h1 class="text-gilded text-section leading-none sm:text-6xl">{title}</h1>

@@ -13,8 +13,8 @@ Audience: players arriving from a store listing or a link, and store reviewers c
 | `/`                           | Hero with store badges, screenshot carousel, features, five worlds, controls, call to action | Marketing URL (Apple), website (Google Play) |
 | `/support`                    | Contact email and FAQ (controls, ghost, unlocks, saves, reset, language, offline, privacy)   | Support URL                                  |
 | `/contact`                    | Contact form (Turnstile, mailed via Cloudflare Email Sending), second channel next to email  | –                                            |
-| `/privacy`                    | Privacy policy for the app and the website, EN and DE                                        | Privacy policy URL                           |
-| `/impressum`                  | Imprint, German in every locale, one canonical URL                                           | –                                            |
+| `/privacy`                    | Privacy policy for the app and the website, EN and DE; `noindex`, not in the sitemap         | Privacy policy URL                           |
+| `/impressum`                  | Imprint, German in every locale, one canonical URL; `noindex`, not in the sitemap            | –                                            |
 | `/robots.txt`, `/sitemap.xml` | Prerendered per build mode; staging disallows crawling                                       | –                                            |
 
 Every page exists at `/…` (English, base locale) and `/de/…` (German). Adding a locale: add it to `project.inlang/settings.json`, generate `messages/<locale>.json` (translation prompt), and add a privacy text file if the policy should be translated (otherwise the English text shows).
