@@ -12,8 +12,6 @@ minimumReleaseAgeExclude:
   - workerd
   - '@cloudflare/workerd-*'
   - '@cloudflare/workers-types'
-  - '@inlang/paraglide-js'
-  - '@inlang/sdk@4.2.0'
 blockExoticSubdeps: true
 trustPolicy: no-downgrade
 trustPolicyExclude:
