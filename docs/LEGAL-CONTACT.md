@@ -22,6 +22,19 @@
 
 ## Next steps
 
-- [x] **Add the contact form**: `/contact`, a `form` remote function (`src/lib/contact/contact.remote.ts`) validated with valibot, Cloudflare Turnstile against spam (secret `TURNSTILE_SECRET_KEY`), mailed through a Cloudflare Email Sending binding from `contact@solo-stack.dev` to the public contact address, Reply-To the visitor (same setup as solo-stack.dev). The page stays prerendered; only the submission runs in the Worker. Nothing is stored: the message exists only in the mail (and in Workers Logs if sending fails).
-- [ ] Then update `docs/copy/impressum-prompt.md` to list email and the form as contact channels, regenerate with `pnpm copy impressum md`, and copy the result into `src/content/legal/impressum.md`. Mention the form in the privacy policy (what it collects, why, how long it is kept; Cloudflare Turnstile as the spam check, which runs in the visitor's browser, and Cloudflare Email Sending as the mail processor) via the privacy prompts. Do this before the form goes live.
+- [x] **Add the contact form**: `/contact`, a `form` remote function (`src/lib/contact/contact.remote.ts`) validated with valibot, Cloudflare Turnstile against spam (secret `TURNSTILE_SECRET_KEY`), mailed through a Cloudflare Email Sending binding from `contact@solo-stack.dev` to the public contact address, Reply-To the visitor (same setup as solo-stack.dev). The page stays prerendered; only the submission runs in the Worker. There is no separate contact database. Mail is retained in the inbox; successful delivery logs the message ID and topic, while failed delivery logs the full submitted name, email, topic and message in Workers Logs.
+- [x] **Update the legal texts**: regenerated the imprint and both privacy policies with `gpt-6.1-sol` through `pnpm copy impressum md`, `pnpm copy privacy-en md` and `pnpm copy privacy-de md`, then copied the outputs into `src/content/legal/`. The imprint links to `/de/contact`; the privacy policies cover the required fields, purpose and legal bases, retention, Turnstile browser processing and provider roles, Email Sending, Email Routing to Gmail, international transfers and full-message logging on delivery failure. Prompts and shared facts now describe the implemented form.
 - [x] Link the form from `/support` (and the footer).
+
+## Privacy copy verification (12 Nov 2026)
+
+The form disclosures were checked against `src/lib/contact/schema.ts`, `contact.remote.ts`, `deliver.server.ts`, `turnstile.server.ts` and `TurnstileWidget.svelte`. Keep the mandatory name field, lazy loading before submission, server-side IP/token verification, email routing and failure-log contents in sync when changing the implementation.
+
+Sources for the copy prompts:
+
+- [Cloudflare Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/): technical signals, processor role for website protection and separate controller role for improving bot detection. Read together with [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
+- [Cloudflare Email Service](https://developers.cloudflare.com/email-service/): Email Sending and Email Routing are distinct stages. The existing mailbox destination remains Gmail as documented in the privacy prompt.
+- [Turnstile pre-clearance configuration](https://developers.cloudflare.com/turnstile/additional-configuration/hostname-management/pre-clearance/): cookies depend on configuration. The dashboard setting was not verified here; the policy makes no blanket cookie-free claim or claim that pre-clearance is enabled.
+- [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng/), especially Articles 6 and 13; [§ 25 TDDDG](https://www.gesetze-im-internet.de/ttdsg/__25.html) for necessary device access; [§ 5 DDG](https://www.gesetze-im-internet.de/ddg/__5.html) for contact information.
+
+No fixed mailbox, log or Turnstile-signal retention duration was verified. The policy gives purpose-based retention criteria and applicable legal obligations rather than inventing a day count or promising immediate deletion. This copy update does not change the form's logging or Cloudflare settings.

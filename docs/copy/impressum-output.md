@@ -8,7 +8,8 @@ Deutschland
 
 ## Kontakt
 
-E-Mail: [business@solo-stack.dev](mailto:business@solo-stack.dev)
+E-Mail: [business@solo-stack.dev](mailto:business@solo-stack.dev)  
+[Kontaktformular](/de/contact)
 
 ## Umsatzsteuer
 
@@ -17,6 +18,6 @@ Kleinunternehmer gemäß § 19 UStG.
 Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:  
 beantragt
 
-## Verbraucherstreitbeilegung nach [§ 36 VSBG](https://www.gesetze-im-internet.de/vsbg/__36.html)
+## Verbraucherstreitbeilegung gemäß [§ 36 VSBG](https://www.gesetze-im-internet.de/vsbg/__36.html)
 
 Ich bin nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.

@@ -6,215 +6,221 @@ Stand: 12. November 2026
 
 ## 1. Datenschutz auf einen Blick
 
-Diese Datenschutzerklärung gilt für Dashnut, derzeit in Version 1.0, und seine offizielle Website einschließlich dieser Seite.
+Dashnut funktioniert offline. Du brauchst kein Konto, und die App sendet mir weder personenbezogene Daten noch Spieldaten. Dein Fortschritt, deine Rekorde, deine Einstellungen und der Freischaltstatus der Vollversion bleiben auf deinem Gerät. Ich betreibe keinen Server für die App.
 
-Dashnut funktioniert offline und sendet keine personenbezogenen Daten oder Spieldaten an mich. Dein Spielfortschritt, deine Rekorde, Replays und Einstellungen bleiben auf deinem Gerät. Du brauchst kein Konto. Die aktuelle Version verwendet keine Analysefunktionen und kein Tracking.
+Auf Android wird der optionale Kauf der Vollversion über Google Play abgewickelt. Google übernimmt die Kaufabwicklung, und ich erhalte als Verkäufer bestimmte Bestellinformationen.
 
-Der optionale Kauf der Vollversion unter Android erfolgt über Google Play. Google verarbeitet den Kauf. Ich erhalte Bestellinformationen, um Verkäufe, Erstattungen, Supportanfragen und die Buchführung abzuwickeln.
+Wenn du diese Website besuchst, verarbeitet Cloudflare technische Informationen, um sie bereitzustellen und zu schützen. Wenn du mich kontaktierst, verarbeite ich deine Nachricht, um dein Anliegen zu bearbeiten. Das Kontaktformular nutzt Cloudflare Turnstile zum Schutz vor Spam. Du kannst mich auch direkt per E-Mail kontaktieren.
 
-Wenn du die Website besuchst, verarbeitet Cloudflare technische Verbindungsdaten, um sie bereitzustellen und abzusichern. Die Website verwendet keine Cookies und kein Tracking. Wenn du mir eine E-Mail schreibst, verarbeite ich deine Nachricht, um dir zu antworten.
+Diese Datenschutzerklärung gilt für Dashnut Version 1.0 und die offizielle Website des Spiels. Die iOS-Version ist noch nicht verfügbar.
 
-## 2. Wer verantwortlich ist
+## 2. Wer verantwortlich ist und wie du mich erreichst
 
-Ich bin Peter Ruß, die Person hinter Solo Stack und der Verantwortliche für die in dieser Datenschutzerklärung beschriebene Verarbeitung.
+Ich bin der Verantwortliche für die in dieser Datenschutzerklärung beschriebenen Verarbeitungen, soweit ein Anbieter nicht als eigenständiger Verantwortlicher handelt.
 
 Peter Ruß  
+Solo Stack  
 c/o POSTFLEX PFX-656-644  
 Emsdettener Straße 10  
 48268 Greven  
 Deutschland
 
-E-Mail: [business@solo-stack.dev](mailto:business@solo-stack.dev)
+E-Mail: [business@solo-stack.dev](mailto:business@solo-stack.dev)  
+Kontaktformular: [Kontakt](/de/contact)
 
-Du kannst diese Adresse für Supportanfragen und Datenschutzanliegen nutzen.
+Für Fragen und Anliegen zum Datenschutz kannst du beide Kontaktwege nutzen.
 
 ## 3. Daten auf deinem Gerät
 
 ### Was Dashnut speichert
 
-Dashnut speichert folgende Daten in seinem privaten Speicherbereich auf deinem Gerät:
+Dashnut speichert folgende Informationen in seinem privaten Speicherbereich auf deinem Gerät:
 
 - Spielfortschritt, Bestzeiten und Medaillen.
-- Replays deiner persönlichen Bestläufe, die für den optionalen Geist deiner persönlichen Bestzeit verwendet werden.
+- Aufzeichnungen deiner persönlichen Bestläufe für den optionalen Geist deiner persönlichen Bestzeit.
 - Gesammelte Eicheln.
-- Einstellungen wie Sprache, Ton, Sichtbarkeit des Geistes und Haptik.
-- Den Freischaltstatus der Vollversion, einschließlich des Produkts, seines Freischaltstatus, der Quelle der Freischaltung und des Zeitpunkts der letzten Aktualisierung.
+- Einstellungen, etwa zu Sprache, Ton, Sichtbarkeit der Geister und haptischem Feedback.
+- Den Freischaltstatus der Vollversion, einschließlich des Produkts, des Freischaltzustands, der Quelle und des Zeitpunkts der letzten Aktualisierung.
 
-Der lokal gespeicherte Freischaltstatus enthält keine Zahlungsdaten oder Daten deines Google-Kontos. Keine dieser gespeicherten Daten verlassen dein Gerät über die App. Ich erhalte sie nicht und betreibe keinen Server für die App.
+Der gespeicherte Freischaltstatus enthält weder Zahlungsdaten noch Daten deines Google-Kontos. Diese lokal gespeicherten Informationen verlassen dein Gerät nicht über die App, und ich erhalte sie nicht.
 
-Die Speicherung auf deinem Gerät ist unbedingt erforderlich, um die von dir gewünschten Spielfunktionen bereitzustellen. Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes (TDDDG).
+Das Speichern dieser Informationen und der Zugriff darauf sind unbedingt erforderlich, um das von dir gewünschte Spiel bereitzustellen. Rechtsgrundlage für diese Speicherung auf deinem Gerät und den Zugriff darauf ist § 25 Abs. 2 Nr. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes, kurz TDDDG.
 
-### Rekorde zurücksetzen und Daten löschen
+Die aktuelle Version enthält keine Nutzerkonten, keine Analysefunktionen, kein Tracking und keine SDKs von Drittanbietern für Werbung oder Analysen. Die einzige Drittanbieterkomponente, die kommuniziert, ist die Google Play Billing Library auf Android. Sie wird ausschließlich für den nachfolgend beschriebenen optionalen Kauf der Vollversion verwendet.
 
-„Rekorde löschen“ in den Einstellungen löscht nach deiner Bestätigung deine Rekorde und deinen Spielfortschritt. Deine Einstellungen und die Freischaltung der Vollversion bleiben erhalten.
+### Rekorde löschen und App deinstallieren
 
-Wenn du Dashnut deinstallierst, werden seine Daten von deinem Gerät gelöscht. Unter Android kannst du eine gekaufte Vollversion mit demselben Google-Konto über „Käufe wiederherstellen“ in den Einstellungen wiederherstellen. Das Zurücksetzen der Rekorde entfernt den Kauf nicht.
+Mit „Rekorde löschen“ in den Einstellungen löschst du nach einer Bestätigung deine Rekorde und deinen Fortschritt. Deine Einstellungen und die Freischaltung der Vollversion bleiben erhalten.
+
+Wenn du die App deinstallierst, werden ihre Daten von deinem Gerät gelöscht. Eine gekaufte Vollversion kannst du über „Käufe wiederherstellen“ in den Einstellungen wiederherstellen.
+
+Auf Informationen, die ausschließlich auf deinem Gerät gespeichert sind, kann ich weder zugreifen noch kann ich sie abrufen oder löschen.
 
 ### Gerätesicherungen
 
-Unter Android sind die Spielstände von Dashnut von Android- und Google-Sicherungen ausgeschlossen. Dein Fortschritt bleibt auf deinem Gerät. Den Kauf selbst kannst du über Google Play wiederherstellen. Unter iOS können Gerätesicherungen in iCloud je nach deinen Geräteeinstellungen auch App-Daten enthalten.
+Auf Android sind Sicherungen der App deaktiviert. Deine Spielstände sind nicht in Android- oder Google-Sicherungen enthalten, sodass dein Fortschritt auf dem Gerät bleibt. Der Kauf selbst kann über Google Play wiederhergestellt werden.
 
-Apple verwaltet diese iCloud-Sicherungen nach den eigenen Bedingungen. Ich habe keinen Zugriff darauf. Wenn du Daten in der App löschst oder die App deinstallierst, bestimmt das nicht, welche Daten in diesen separat verwalteten iCloud-Sicherungen verbleiben.
+Auf iOS können iCloud-Gerätesicherungen je nach deinen Geräteeinstellungen App-Daten enthalten. Apple verarbeitet diese Sicherungen nach seinen eigenen Bedingungen, und ich habe keinen Zugriff darauf. Das Löschen von App-Daten oder die Deinstallation der App bestimmt nicht, welche Daten in separat verwalteten iCloud-Sicherungen verbleiben.
 
-### Berechtigungen und Kommunikation
+### Android-Berechtigungen
 
-Unter Android ist die Berechtigung für Vibration (android.permission.VIBRATE) in Dashnut ausschließlich für optionales haptisches Feedback vorgesehen. Die Google Play Billing Library fügt die Berechtigungen für Käufe über Google Play (com.android.vending.BILLING), den Internetzugriff (android.permission.INTERNET) und das Abfragen des Netzwerkstatus (android.permission.ACCESS_NETWORK_STATE) hinzu. Diese drei Berechtigungen werden nur verwendet, um den optionalen einmaligen Kauf der Vollversion anzubieten, zu prüfen und wiederherzustellen. Der Spielcode selbst stellt keine Netzwerkanfragen. Die App greift nicht auf deinen Standort, deine Kontakte, deine Kamera, dein Mikrofon, deine Fotos oder deine Werbe-ID zu.
+Dashnut deklariert vier Android-Berechtigungen:
 
-Die einzige Komponente eines Drittanbieters in der App, die kommuniziert, ist die Google Play Billing Library unter Android. Sie wird ausschließlich für den unten beschriebenen optionalen Kauf der Vollversion verwendet.
+- **Vibration:** für optionales haptisches Feedback.
+- **Abrechnung über Google Play:** von der Google Play Billing Library hinzugefügt, um den optionalen einmaligen Kauf der Vollversion anzubieten, zu prüfen und wiederherzustellen.
+- **Internetzugriff:** von der Google Play Billing Library für diese Kauffunktionen hinzugefügt.
+- **Zugriff auf den Netzwerkstatus:** von der Google Play Billing Library für diese Kauffunktionen hinzugefügt.
 
-Die Infoansicht kann die Supportseite oder diese Datenschutzerklärung in deinem Browser öffnen. Wenn du diese Seiten besuchst, gilt der Abschnitt dieser Datenschutzerklärung zur Website.
+Der Spielcode selbst stellt keine Netzwerkanfragen. Dashnut greift weder auf deinen Standort noch auf deine Kontakte, deine Kamera, dein Mikrofon, deine Fotos oder deine Werbe-ID zu.
 
-## 4. Optionaler Kauf der Vollversion unter Android
+### Links zur Website
 
-### Google Play verarbeitet den Kauf
+Der Infobildschirm kann Links, etwa zum Support oder zu dieser Datenschutzerklärung, in deinem Browser öffnen. Dann gelten die Abschnitte dieser Datenschutzerklärung zur Website.
 
-Dashnut kann kostenlos heruntergeladen werden und bietet einen optionalen Einmalkauf, die „Vollversion“, mit dem die übrigen Strecken freigeschaltet werden.
+## 4. Der optionale Kauf der Vollversion
 
-Verkauf und Bezahlung erfolgen vollständig über Google Play, das von Google Ireland Limited betrieben wird, nach den Bedingungen von Google. Google ist für dein Google-Konto, dein Zahlungsmittel und den Kauf selbst eigenständig Verantwortlicher. Siehe [Googles Datenschutzerklärung](https://policies.google.com/privacy).
+### Google Play auf Android
+
+Dashnut kann kostenlos heruntergeladen werden und bietet einen optionalen einmaligen Kauf an: die „Vollversion“, mit der die übrigen Strecken freigeschaltet werden.
+
+Der Verkauf und die Bezahlung werden vollständig über Google Play nach den Bedingungen von Google abgewickelt. Anbieter ist Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Google ist eigenständiger Verantwortlicher für dein Google-Konto, dein Zahlungsmittel und den Kauf selbst. Weitere Informationen findest du in [Googles Datenschutzerklärung](https://policies.google.com/privacy).
+
+Um den Kauf anzubieten und zu prüfen, verwendet Dashnut die Google Play Billing Library. Wenn die App startet oder in den Vordergrund zurückkehrt und wenn du einen Kauf tätigst oder auf „Käufe wiederherstellen“ tippst, fragt sie bei Google Play auf deinem Gerät die Produktdetails, den Preis und die Information ab, ob dein Google-Konto die Vollversion besitzt. Außerdem bestätigt sie einen neuen Kauf gegenüber Google Play mit dem von Google ausgestellten Kauftoken.
+
+Dieser Austausch findet ausschließlich zwischen der App und Google Play statt. Ich erhalte die dabei ausgetauschten Daten nicht. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, um die gekauften Inhalte bereitzustellen. Notwendige Zugriffe auf das Gerät beruhen auf § 25 Abs. 2 Nr. 2 TDDDG.
+
+Eine Internetverbindung ist nur erforderlich, um die Vollversion zu kaufen oder wiederherzustellen. Ohne Verbindung funktioniert das Spiel weiterhin, und eine bestehende Freischaltung bleibt gültig. Die Freischaltung wird nur entfernt, wenn Google Play meldet, dass der Kauf nicht mehr besteht, etwa nach einer Erstattung.
+
+Du kannst „Käufe wiederherstellen“ in den Einstellungen mit demselben Google-Konto verwenden, etwa nach einer Neuinstallation. „Rekorde löschen“ entfernt den Kauf nicht.
+
+### Bestellinformationen, auf die ich zugreifen kann
 
 Ich erhalte weder deine Zahlungsdaten noch das Passwort deines Google-Kontos.
 
-### Wie die App deinen Kauf prüft
+Als Verkäufer kann ich in der Google Play Console auf Bestellinformationen zugreifen. Dazu gehören beispielsweise die Bestellnummer, das Datum, das Produkt, der Preis, Steuern und Gebühren, der Bestellstatus sowie das für steuerliche Zwecke erforderliche Land oder die Region des Käufers. Google ermöglicht mir außerdem, eine Bestellung anhand ihrer Bestellnummer oder der E-Mail-Adresse des Käufers zu suchen, etwa für Support oder Erstattungen. Google entscheidet nach seinen eigenen Bedingungen, welche Bestellinformationen es bereitstellt.
 
-Dashnut verwendet die Google Play Billing Library, um den Kauf anzubieten und zu prüfen.
+Ich verwende diese Informationen ausschließlich zur Abwicklung des Verkaufs, von Erstattungen und Supportanfragen sowie für die Buchführung. Soweit die Verarbeitung zur Abwicklung des Verkaufs und damit zusammenhängender Anfragen erforderlich ist, beruht sie auf Art. 6 Abs. 1 lit. b DSGVO. Eine steuerrechtlich oder handelsrechtlich vorgeschriebene Verarbeitung und Aufbewahrung beruht auf Art. 6 Abs. 1 lit. c DSGVO.
 
-Wenn die App startet oder in den Vordergrund zurückkehrt und wenn du einen Kauf tätigst oder auf „Käufe wiederherstellen“ tippst, fragt sie Google Play auf deinem Gerät nach den Produktdetails, dem Preis und danach, ob dein Google-Konto die Vollversion besitzt. Außerdem bestätigt sie einen neuen Kauf gegenüber Google Play mithilfe des von Google ausgestellten Kauftokens.
+Ich bewahre diese Informationen so lange auf, wie es die geltenden steuerrechtlichen und handelsrechtlichen Vorschriften verlangen, und im Übrigen nur so lange, wie es für diese Zwecke erforderlich ist.
 
-Dieser Austausch findet ausschließlich zwischen der App und Google Play statt. Ich erhalte die dabei ausgetauschten Daten nicht.
+### Künftige App-Store-Version
 
-Du brauchst nur eine Internetverbindung, um die Vollversion zu kaufen oder wiederherzustellen. Ohne Verbindung funktioniert das Spiel weiter und eine bestehende Freischaltung bleibt gültig. Die Freischaltung wird nur entfernt, wenn Google Play meldet, dass der Kauf nicht mehr besteht, beispielsweise nach einer Erstattung.
+Falls die App-Store-Version die Vollversion anbietet, wird Apple diesen Kauf nach seinen eigenen Bedingungen als eigenständiger Verantwortlicher verarbeiten. Ich werde diese Datenschutzerklärung vor der Veröffentlichung dieser Version aktualisieren.
 
-Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, um die gekauften Inhalte bereitzustellen. Der Zugriff auf dein Gerät erfolgt auf Grundlage von § 25 Abs. 2 Nr. 2 TDDDG, da er für die von dir gewünschte Kauffunktion unbedingt erforderlich ist.
+## 5. App-Stores und optionale Berichte
 
-### Für mich verfügbare Bestellinformationen
+Wenn du Dashnut über einen App-Store herunterlädst, gilt die Datenschutzerklärung des jeweiligen Stores. Die Store-Betreiber sind eigenständige Verantwortliche für die dort verarbeiteten Informationen, etwa zu deinem Konto und deinem Downloadverlauf:
 
-Als Verkäufer erhalte ich Bestellinformationen über die Google Play Console. Dazu können Bestellnummer, Datum, Produkt, Preis, Steuern und Gebühren, Bestellstatus sowie das für steuerliche Zwecke erforderliche Land oder die Region des Käufers gehören.
+- **Google Play:** Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Weitere Informationen findest du in [Googles Datenschutzerklärung](https://policies.google.com/privacy).
+- **App Store:** Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Irland. Weitere Informationen findest du in [Apples Datenschutzerklärung](https://www.apple.com/legal/privacy/).
 
-Google ermöglicht mir außerdem, eine Bestellung anhand ihrer Bestellnummer oder der E-Mail-Adresse des Käufers zu suchen, beispielsweise um eine Erstattung oder eine Supportanfrage zu bearbeiten. Google legt nach seinen eigenen Bedingungen fest, welche Bestellinformationen es bereitstellt.
+Abgesehen von den oben beschriebenen Bestellinformationen erhalte ich von den Stores keine Daten, die dich persönlich identifizieren.
 
-Ich verwende diese Informationen ausschließlich zur Abwicklung des Verkaufs, von Erstattungen und Supportanfragen sowie für die Buchführung. Rechtsgrundlage für die Abwicklung des Kaufs und damit verbundener Anfragen ist Art. 6 Abs. 1 lit. b DSGVO. Soweit steuerrechtliche oder handelsrechtliche Vorschriften mich zur Aufbewahrung von Informationen verpflichten, ist Art. 6 Abs. 1 lit. c DSGVO die Rechtsgrundlage.
+Wenn du dies in deinen Geräte- oder Store-Einstellungen erlaubt hast, können Google und Apple mir zusammengefasste Statistiken sowie Absturz- oder Leistungsberichte bereitstellen, die dich nicht identifizieren. Ich verwende sie ausschließlich, um Fehler zu beheben und das Spiel zu verbessern. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse besteht darin, Dashnut zu pflegen und zu verbessern.
 
-Ich bewahre Bestellinformationen so lange auf, wie diese gesetzlichen Aufbewahrungspflichten es verlangen. Im Übrigen bewahre ich sie nicht länger auf, als es für die genannten Zwecke erforderlich ist.
+## 6. Besuch der Website
 
-### Künftige Version im App Store
+### Hosting und technische Daten
 
-Falls die noch nicht verfügbare Version im App Store die Vollversion anbietet, wird Apple diesen Kauf nach seinen eigenen Bedingungen als eigenständig Verantwortlicher verarbeiten. Ich werde diese Datenschutzerklärung vor der Veröffentlichung dieser Version aktualisieren.
+Die Website wird auf Cloudflare Workers betrieben. Anbieter ist Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, USA. Cloudflare stellt die Website bereit und bietet Sicherheitsfunktionen.
 
-## 5. App-Stores und Berichte der Stores
+Bei jedem Besuch werden technische Daten verarbeitet, etwa:
 
-Wenn du Dashnut über einen Store herunterlädst, gilt die Datenschutzerklärung dieses Stores. Die Betreiber der Stores sind für die dort verarbeiteten Daten, etwa dein Store-Konto und deinen Downloadverlauf, eigenständig Verantwortliche.
+- Deine IP-Adresse und der Zeitpunkt des Zugriffs.
+- Die angeforderte Adresse, der HTTP-Statuscode der Antwort und die übertragene Datenmenge.
+- Informationen zu Browser und Betriebssystem.
+- Die verweisende Seite, sofern dein Browser diese übermittelt.
 
-Google Play wird betrieben von:
+Diese Verarbeitung ist erforderlich, um die Website sicher bereitzustellen und Fehler zu beheben. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse besteht darin, eine zuverlässige und sichere Website zu betreiben.
 
-Google Ireland Limited  
-Gordon House, Barrow Street  
-Dublin 4  
-Irland
+Fehler- und Anfrageprotokolle dienen dem Betrieb und der Fehlerbehebung. Sie werden nach den geltenden Löschregeln von Cloudflare nur so lange aufbewahrt, wie es für diese Zwecke erforderlich ist.
 
-Der App Store wird betrieben von:
+Die Website verwendet weder Analysefunktionen noch Werbetracking. Schriftarten werden direkt von der Website bereitgestellt.
 
-Apple Distribution International Ltd.  
-Hollyhill Industrial Estate  
-Hollyhill, Cork  
-Irland
+### Die Rolle von Cloudflare und internationale Datenübermittlungen
 
-Abgesehen von den oben beschriebenen Bestellinformationen zu Käufen erhalte ich von den Stores keine Daten, die dich persönlich identifizieren.
+Cloudflare verarbeitet Website-Daten in meinem Auftrag auf Grundlage seines [Vertrags zur Auftragsverarbeitung](https://www.cloudflare.com/cloudflare-customer-dpa/).
 
-Wenn du dies in deinen Geräte- oder Store-Einstellungen erlaubt hast, können Google und Apple mir zusammengefasste Statistiken sowie Absturz- oder Leistungsberichte zur Verfügung stellen, die dich nicht identifizieren. Ich verwende sie ausschließlich, um Fehler zu beheben und das Spiel zu verbessern. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse besteht darin, die Zuverlässigkeit von Dashnut zu erhalten und seine Funktionsweise zu verbessern.
+Die Verarbeitung kann in den USA stattfinden. Internationale Datenübermittlungen beruhen auf dem EU-US Data Privacy Framework und, soweit anwendbar, auf Standardvertragsklauseln. Diese Regelungen gelten auch für die nachfolgend beschriebenen einschlägigen Verarbeitungen durch Cloudflare im Zusammenhang mit dem Kontaktformular, der E-Mail-Zustellung und der Sicherheit.
 
-## 6. Die Website
+Weitere Informationen findest du in [Cloudflares Datenschutzerklärung](https://www.cloudflare.com/privacypolicy/). Über die Kontaktwege in Abschnitt 2 kannst du weitere Informationen oder eine Kopie der geltenden Garantien für internationale Datenübermittlungen bei mir anfordern.
 
-### Hosting, Bereitstellung und Sicherheit
+### Spamschutz mit Cloudflare Turnstile
 
-Die Website wird auf Cloudflare Workers gehostet. Cloudflare liefert außerdem ihre Inhalte aus und stellt Sicherheitsfunktionen bereit.
+Das Kontaktformular verwendet Cloudflare Turnstile, um vor Spam und Missbrauch zu schützen und die Verfügbarkeit der Kontaktmöglichkeit aufrechtzuerhalten.
 
-Der Anbieter ist:
+Das Turnstile-Skript wird direkt von `challenges.cloudflare.com` geladen, sobald du im Formular erstmals ein Feld fokussierst, klickst, etwas berührst oder etwas eingibst oder wenn du das Formular absendest. Es wird nicht allein dadurch geladen, dass du die Kontaktseite aufrufst. Es kann daher bereits technische Informationen verarbeiten, bevor du eine Nachricht absendest.
 
-Cloudflare, Inc.  
-101 Townsend Street  
-San Francisco, CA 94107  
-USA
+Turnstile verarbeitet deine IP-Adresse, deinen TLS-Fingerabdruck, Browserinformationen in Form des sogenannten User-Agent sowie den Website-Schlüssel und die zugehörige Website-Origin. Ein TLS-Fingerabdruck beschreibt technische Merkmale deiner Verbindung. Der Website-Server übermittelt außerdem das Prüftoken und deine IP-Adresse an Cloudflare, um die Prüfung zu validieren. Der Inhalt deiner Formularnachricht wird nicht zur Bot-Erkennung an Turnstile übermittelt.
 
-Bei jedem Besuch werden technische Daten verarbeitet, beispielsweise:
+Meine Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse besteht darin, das Formular vor Spam und Missbrauch zu schützen und verfügbar zu halten. Soweit Informationen auf deinem Gerät gespeichert werden oder darauf zugegriffen wird und dies für den Schutz der von dir gewünschten Kontaktmöglichkeit unbedingt erforderlich ist, gilt § 25 Abs. 2 Nr. 2 TDDDG.
 
-- Deine IP-Adresse.
-- Der Zeitpunkt des Zugriffs und die angeforderte Adresse.
-- Der Antwortstatuscode und die übertragene Datenmenge.
-- Dein Browser und dein Betriebssystem.
-- Die verweisende Adresse, sofern dein Browser sie übermittelt.
+Beim Schutz dieser Website handelt Cloudflare als mein Auftragsverarbeiter. Daneben handelt Cloudflare als eigenständiger Verantwortlicher, wenn es die Signale zur Verbesserung der Bot-Erkennung von Turnstile verwendet. Nach eigenen Angaben stützt Cloudflare diese Verarbeitung auf seine berechtigten Interessen.
 
-Diese Daten werden verarbeitet, um die Website sicher bereitzustellen und Fehler zu beheben. Fehler- und Anfrageprotokolle unterstützen den Betrieb und die Fehlerbehebung.
+Informationen zu Cloudflares eigener Verarbeitung, den geltenden Aufbewahrungsregeln und deinen Rechten findest du im [Turnstile-Datenschutzzusatz](https://www.cloudflare.com/turnstile-privacy-policy/) zusammen mit [Cloudflares Datenschutzerklärung](https://www.cloudflare.com/privacypolicy/). Zu dieser Verarbeitung kannst du Cloudflare unter [dpo@cloudflare.com](mailto:dpo@cloudflare.com) kontaktieren. Die oben genannten Anbieterangaben, der Vertrag zur Auftragsverarbeitung und die Garantien für internationale Datenübermittlungen gelten auch für die einschlägige Verarbeitung durch Turnstile.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Meine berechtigten Interessen bestehen darin, eine funktionierende, sichere Website bereitzustellen und technische Probleme zu erkennen und zu beheben.
+Das Formular benötigt JavaScript und eine erfolgreiche Sicherheitsprüfung. Die Nutzung des Formulars wird nicht als Einwilligung behandelt. Die automatisierte Spamprüfung kann das Absenden verhindern. Du kannst mich weiterhin direkt per E-Mail kontaktieren, ohne die Turnstile-Prüfung des Formulars zu durchlaufen.
 
-Protokolle werden nach den Löschregeln von Cloudflare nur so lange aufbewahrt, wie es für diese Zwecke erforderlich ist.
+## 7. E-Mail und Kontaktformular
 
-Die Verarbeitung durch Cloudflare in meinem Auftrag ist durch dessen [Vereinbarung zur Auftragsverarbeitung](https://www.cloudflare.com/cloudflare-customer-dpa/) geregelt. Für internationale Datenübermittlungen dienen das EU-US Data Privacy Framework und, soweit anwendbar, Standardvertragsklauseln als Grundlage. Weitere Informationen findest du in [Cloudflares Datenschutzerklärung](https://www.cloudflare.com/privacypolicy/).
+### Was ich verarbeite und warum
 
-### Keine Cookies und kein Tracking
+Für Support, Fragen zum Kauf, Feedback, Datenschutzanfragen und andere Nachrichten kannst du eine E-Mail an [business@solo-stack.dev](mailto:business@solo-stack.dev) senden oder das [Kontaktformular](/de/contact) verwenden. Antworten versende ich per E-Mail.
 
-Die Website setzt keine Cookies und speichert nichts auf deinem Gerät. Sie verwendet keine Analysefunktionen, kein Tracking, keine externen Schriftarten, keine eingebetteten Inhalte von Drittanbietern und kein Kontaktformular. Schriftarten werden von der Website selbst ausgeliefert.
+Wenn du mir eine E-Mail sendest, verarbeite ich deine E-Mail-Adresse, deinen Namen, sofern angegeben, deine Nachricht und alle weiteren Informationen, die du mitteilst.
 
-## 7. Kontakt per E-Mail
+Im Kontaktformular werden ein Thema, ein Name, eine E-Mail-Adresse und eine Nachricht benötigt. Alle vier Felder sind Pflichtfelder. Die Kontaktaufnahme ist freiwillig, das Formular kann jedoch ohne diese Angaben und eine erfolgreiche Sicherheitsprüfung nicht abgesendet werden. Du kannst mir direkt eine E-Mail senden, ohne das Formular zu verwenden.
 
-Wenn du an [business@solo-stack.dev](mailto:business@solo-stack.dev) schreibst, verarbeite ich deine E-Mail-Adresse, deinen Namen, sofern du ihn angibst, deine Nachricht und alle darin enthaltenen Daten, um dir zu antworten.
+Ich verarbeite die Kontaktinformationen, um deine Anfrage zu beantworten und dein Anliegen zu bearbeiten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse besteht darin, Anfragen zu beantworten und Support zu leisten. Art. 6 Abs. 1 lit. b DSGVO gilt, soweit die Verarbeitung zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist, die auf deine Anfrage erfolgen.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse besteht darin, Nachrichten zu beantworten und Support zu leisten. Wenn sich deine Anfrage auf einen Vertrag bezieht, ist Art. 6 Abs. 1 lit. b DSGVO die Rechtsgrundlage.
+### Übermittlung und E-Mail-Anbieter
 
-Die Angabe von Informationen per E-Mail ist freiwillig. Ich benötige ausreichend Informationen, um deine Anfrage zu verstehen und zu beantworten.
+Wenn du das Formular absendest, verarbeitet Cloudflare Workers die übermittelten Felder. Cloudflare Email Sending stellt sie per E-Mail an [business@solo-stack.dev](mailto:business@solo-stack.dev) zu. Dabei werden der von dir angegebene Name und deine E-Mail-Adresse als Antwortadresse im Reply-To-Feld verwendet.
 
-Eingehende Nachrichten werden über Cloudflare Email Routing an ein von Google Ireland Limited bereitgestelltes Gmail-Postfach weitergeleitet. Die Angaben zu den Anbietern findest du oben.
+Cloudflare Email Routing leitet eingehende E-Mails an mein bestehendes Gmail-Postfach weiter. Derselbe Weiterleitungsweg gilt für Nachrichten, die über das Kontaktformular zugestellt werden. Email Sending stellt Formularnachrichten zu, Email Routing leitet eingehende E-Mails an das Postfach weiter.
 
-Google kann E-Mail-Daten in den USA verarbeiten. Die Übermittlungen werden je nach Anwendbarkeit durch das EU-US Data Privacy Framework oder Standardvertragsklauseln abgesichert. Siehe [Googles Datenschutzerklärung](https://policies.google.com/privacy) und [Cloudflares Datenschutzerklärung](https://www.cloudflare.com/privacypolicy/).
+Cloudflare verarbeitet die Formularübermittlung und die E-Mail-Zustellung in meinem Auftrag auf Grundlage seines Vertrags zur Auftragsverarbeitung. Ich verwende keine separate Kontaktdatenbank.
 
-Ich lösche Nachrichten, sobald sie nicht mehr benötigt werden, sofern gesetzliche Aufbewahrungspflichten mich nicht zur weiteren Aufbewahrung verpflichten.
+Gmail wird von der in Abschnitt 4 genannten Google Ireland Limited bereitgestellt. Google kann E-Mail-Daten in den USA verarbeiten. Als Garantien dienen das EU-US Data Privacy Framework oder Standardvertragsklauseln. Weitere Informationen findest du in [Googles Datenschutzerklärung](https://policies.google.com/privacy). Die Anbieterangaben und Garantien für Datenübermittlungen von Cloudflare sind in Abschnitt 6 aufgeführt.
 
-Du kannst dich an mich wenden, um weitere Informationen über die geltenden Garantien für internationale Datenübermittlungen zu erhalten.
+### Aufbewahrung der Korrespondenz
 
-## 8. Kinder
+Ich bewahre Korrespondenz auf, bis das Anliegen geklärt ist und die Informationen nicht mehr benötigt werden. Soweit gesetzliche Aufbewahrungspflichten gelten, bewahre ich die betreffenden Informationen auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO für die vorgeschriebene Dauer auf.
 
-Die App selbst erhebt von niemandem personenbezogene Daten, auch nicht von Kindern.
+### Zustellprotokolle
 
-Käufe unter Android werden über Google Play abgewickelt. Dabei gelten die Familien- und Jugendschutzeinstellungen von Google Play, etwa die Genehmigung von Käufen.
+Bei erfolgreicher Zustellung einer Formularnachricht werden die Nachrichten-ID und das Thema in Cloudflare Workers Logs protokolliert.
 
-## 9. Sicherheit und automatisierte Entscheidungen
+Wenn die Zustellung fehlschlägt, werden der vollständig übermittelte Name, die E-Mail-Adresse, das Thema und die vollständige Nachricht in Cloudflare Workers Logs protokolliert. Dadurch kann ich Zustellfehler untersuchen und die Anfrage wiederherstellen.
 
-Die Website verwendet HTTPS/TLS, um Daten während der Übertragung zu schützen.
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse besteht in einer zuverlässigen Zustellung und der Behebung von Fehlern. Diese Protokolle werden nach den geltenden Löschregeln von Cloudflare nur so lange aufbewahrt, wie es für die Fehlerbehebung und Wiederherstellung erforderlich ist. Ihre Aufbewahrung ist von der Aufbewahrung der Korrespondenz in meinem Postfach getrennt.
 
-Die von der App gespeicherten Daten bleiben auf deinem Gerät, vorbehaltlich der in Abschnitt 3 beschriebenen Sicherungen durch das Betriebssystem.
+## 8. Deine Rechte
 
-Ich verwende personenbezogene Daten nicht für automatisierte Entscheidungsfindung oder Profiling.
+Wenn die jeweiligen gesetzlichen Voraussetzungen erfüllt sind, hast du nach Art. 15 bis 21 DSGVO folgende Rechte:
 
-## 10. Deine Rechte
+- Auskunft über deine personenbezogenen Daten und deren Verarbeitung.
+- Berichtigung unrichtiger Daten und Vervollständigung unvollständiger Daten.
+- Löschung deiner Daten.
+- Einschränkung der Verarbeitung.
+- Datenübertragbarkeit.
+- Widerspruch gegen eine Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
 
-Unter den jeweils geltenden gesetzlichen Voraussetzungen hast du nach Art. 15 bis 21 DSGVO folgende Rechte:
+Beruht eine Verarbeitung auf deiner Einwilligung, kannst du diese jederzeit widerrufen. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung vor dem Widerruf. Für die in dieser Datenschutzerklärung beschriebenen Verarbeitungen hole ich derzeit keine Einwilligung ein.
 
-- **Auskunft:** Du kannst erfragen, ob ich personenbezogene Daten über dich verarbeite, und Auskunft sowie eine Kopie verlangen.
-- **Berichtigung:** Du kannst von mir verlangen, unrichtige Daten zu berichtigen oder unvollständige Daten zu vervollständigen.
-- **Löschung:** Du kannst von mir verlangen, deine personenbezogenen Daten zu löschen.
-- **Einschränkung der Verarbeitung:** Du kannst von mir verlangen, die Verarbeitung einzuschränken.
-- **Datenübertragbarkeit:** Wenn die gesetzlichen Voraussetzungen erfüllt sind, kannst du die von dir bereitgestellten Daten in einem strukturierten, gängigen und maschinenlesbaren Format erhalten und an einen anderen Verantwortlichen übermitteln lassen.
-- **Widerspruch:** Du kannst einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO widersprechen, wie unten erläutert.
+Um deine Rechte auszuüben, sende eine E-Mail an [business@solo-stack.dev](mailto:business@solo-stack.dev) oder nutze das [Kontaktformular](/de/contact). Über diese Kontaktwege kannst du auch weitere Informationen oder eine Kopie der geltenden Garantien für internationale Datenübermittlungen anfordern.
 
-Diese Rechte unterliegen gesetzlichen Voraussetzungen und Ausnahmen, einschließlich gesetzlicher Aufbewahrungspflichten.
-
-Ich kann auf Daten, die ausschließlich auf deinem Gerät gespeichert sind, weder zugreifen noch sie abrufen oder löschen. Du kannst diese Daten mit den in Abschnitt 3 beschriebenen Funktionen verwalten.
-
-Um deine Rechte auszuüben, schreibe an [business@solo-stack.dev](mailto:business@solo-stack.dev).
+Auf Daten, die ausschließlich auf deinem Gerät gespeichert sind, kann ich weder zugreifen noch kann ich sie abrufen oder löschen. Abschnitt 3 erläutert die in der App verfügbaren Möglichkeiten.
 
 ### Dein Widerspruchsrecht
 
-Du kannst aus Gründen, die sich aus deiner besonderen Situation ergeben, jederzeit einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO widersprechen.
+Du kannst einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO jederzeit aus Gründen widersprechen, die sich aus deiner besonderen Situation ergeben.
 
-Ich werde diese Verarbeitung dann einstellen, sofern ich keine zwingenden schutzwürdigen Gründe nachweisen kann, die deine Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist.
-
-### Widerruf einer Einwilligung
-
-Wenn eine Verarbeitung auf einer Einwilligung beruht, kannst du diese jederzeit widerrufen. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung, die vor dem Widerruf erfolgt ist. Für die in dieser Datenschutzerklärung beschriebene Verarbeitung bitte ich dich derzeit nicht um eine Einwilligung.
+Wenn du widersprichst, stelle ich diese Verarbeitung ein, es sei denn, ich weise zwingende schutzwürdige Gründe nach, die deine Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung ist zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich.
 
 ### Beschwerden
 
-Du hast das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren, insbesondere in dem Land, in dem du gewöhnlich lebst oder arbeitest oder in dem du einen Verstoß vermutest.
+Du hast das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren, insbesondere in dem EU-Mitgliedstaat deines gewöhnlichen Aufenthalts, deines Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes.
 
 Du kannst dich beispielsweise an folgende Behörde wenden:
 
@@ -223,10 +229,28 @@ Promenade 18
 91522 Ansbach  
 Deutschland
 
-Website: [Bayerisches Landesamt für Datenschutzaufsicht](https://www.lda.bayern.de)
+Website: [www.lda.bayern.de](https://www.lda.bayern.de)
 
-## 11. Änderungen dieser Datenschutzerklärung
+## 9. Automatisierte Entscheidungen
 
-Ich aktualisiere diese Datenschutzerklärung, wenn sich die App oder die Website ändert, insbesondere bevor eine künftige Version Funktionen hinzufügt, die personenbezogene Daten verarbeiten, etwa Werbung.
+Ich treffe keine Entscheidungen, die ausschließlich auf einer automatisierten Verarbeitung einschließlich Profiling beruhen und dir gegenüber rechtliche Wirkung entfalten oder dich in ähnlicher Weise erheblich beeinträchtigen, im Sinne von Art. 22 DSGVO.
 
-Das Datum am Anfang zeigt, wann diese Datenschutzerklärung zuletzt aktualisiert wurde.
+Turnstile führt die in Abschnitt 6 beschriebene automatisierte Spamprüfung durch. Diese Prüfung kann das Absenden des Formulars verhindern. Du kannst mich weiterhin direkt per E-Mail kontaktieren.
+
+## 10. Kinder
+
+Die App selbst erhebt von niemandem personenbezogene Daten, auch nicht von Kindern.
+
+Käufe werden über Google Play abgewickelt. Dabei gelten die Familien- und Jugendschutzeinstellungen von Google Play, etwa die Genehmigung von Käufen.
+
+## 11. Sicherheit
+
+Die Website verwendet HTTPS/TLS, um Daten während der Übertragung zu schützen.
+
+Die von der App lokal gespeicherten Daten bleiben auf deinem Gerät. Ich habe keinen Zugriff auf diese lokalen App-Daten.
+
+## 12. Änderungen dieser Datenschutzerklärung
+
+Ich aktualisiere diese Datenschutzerklärung, wenn sich die App oder die Website ändert. Die aktuelle App-Version enthält keine Werbung. Ich werde diese Datenschutzerklärung aktualisieren, bevor eine künftige Version Funktionen hinzufügt, die personenbezogene Daten verarbeiten, etwa Werbung.
+
+Das Datum am Anfang zeigt den aktuellen Stand dieser Datenschutzerklärung.
