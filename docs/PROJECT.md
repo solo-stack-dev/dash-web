@@ -42,4 +42,5 @@ Captured from the real game with Godot 4.7.2 at 2560×1440 (content scale 1280×
 
 - **Domain**: `dashnut.app` (production) and `staging.dashnut.app`, set in `vite.config.ts` (`origins`) and `wrangler.jsonc` (`routes`).
 - **Store URLs**: `src/lib/site.ts` → `STORE_URLS`; then replace the generic badges with the official Google Play / App Store badge artwork.
+- **Contact form**: required as the second contact channel next to email (no phone on the site). Decision, reasons and follow-up steps: [LEGAL-CONTACT.md](LEGAL-CONTACT.md).
 - **USt-IdNr.**: replace „beantragt“ in the imprint once it is assigned (regenerate with the impressum prompt).
