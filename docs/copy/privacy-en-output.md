@@ -48,13 +48,13 @@ Uninstalling Dashnut deletes its data from your device. On Android, a purchased 
 
 ### Device backups
 
-Depending on your device settings, operating system backups may include app data. Examples include Android backups to Google and iCloud device backups.
+On Android, Dashnut saves are excluded from Android and Google backups. Your progress stays on your device. The purchase itself can be restored through Google Play. On iOS, depending on your device settings, iCloud device backups may include app data.
 
-Google or Apple handles these backups under its own terms. I have no access to them. Deleting data from the app or uninstalling it does not determine what remains in those separately managed backups.
+Apple handles these iCloud backups under its own terms. I have no access to them. Deleting data from the app or uninstalling it does not determine what remains in those separately managed iCloud backups.
 
 ### Permissions and communication
 
-On Android, Dashnut requests only the vibration permission, used solely for optional haptic feedback. It does not access your location, contacts, camera, microphone, photos or advertising ID.
+On Android, Dashnut declares the permission for vibration (android.permission.VIBRATE), used solely for optional haptic feedback. The Google Play Billing Library adds permissions for Google Play billing (com.android.vending.BILLING), internet access (android.permission.INTERNET) and checking network status (android.permission.ACCESS_NETWORK_STATE). These three permissions are used only to offer, check and restore the optional one-time purchase of the full game. The game code itself makes no network requests. It does not access your location, contacts, camera, microphone, photos or advertising ID.
 
 The only third party component in the app that communicates is the Google Play Billing Library on Android. It is used solely for the optional full game purchase described below.
 

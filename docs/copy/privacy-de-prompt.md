@@ -1,5 +1,7 @@
 Übersetze die folgende englische Datenschutzerklärung für das Handyspiel Dashnut und seine Website vollständig ins Deutsche (Rechtsstand Deutschland, November 2026). Keine Werkzeuge benutzen.
 
+{{FACTS}}
+
 Anforderungen:
 
 - Vollständig und inhaltlich gleichwertig, keine Zusammenfassung, nichts hinzufügen oder weglassen. Gleiche Abschnitte, gleiche Nummerierung, gleiche Links und Adressen.

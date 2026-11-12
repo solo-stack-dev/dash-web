@@ -52,13 +52,13 @@ Wenn du Dashnut deinstallierst, werden seine Daten von deinem Gerät gelöscht. 
 
 ### Gerätesicherungen
 
-Je nach deinen Geräteeinstellungen können Sicherungen des Betriebssystems auch App-Daten enthalten. Dazu gehören beispielsweise Android-Sicherungen bei Google und Gerätesicherungen in iCloud.
+Unter Android sind die Spielstände von Dashnut von Android- und Google-Sicherungen ausgeschlossen. Dein Fortschritt bleibt auf deinem Gerät. Den Kauf selbst kannst du über Google Play wiederherstellen. Unter iOS können Gerätesicherungen in iCloud je nach deinen Geräteeinstellungen auch App-Daten enthalten.
 
-Google oder Apple verwaltet diese Sicherungen nach den eigenen Bedingungen. Ich habe keinen Zugriff darauf. Wenn du Daten in der App löschst oder die App deinstallierst, bestimmt das nicht, welche Daten in diesen separat verwalteten Sicherungen verbleiben.
+Apple verwaltet diese iCloud-Sicherungen nach den eigenen Bedingungen. Ich habe keinen Zugriff darauf. Wenn du Daten in der App löschst oder die App deinstallierst, bestimmt das nicht, welche Daten in diesen separat verwalteten iCloud-Sicherungen verbleiben.
 
 ### Berechtigungen und Kommunikation
 
-Unter Android fordert Dashnut nur die Berechtigung für Vibration an. Sie wird ausschließlich für optionales haptisches Feedback verwendet. Die App greift nicht auf deinen Standort, deine Kontakte, deine Kamera, dein Mikrofon, deine Fotos oder deine Werbe-ID zu.
+Unter Android ist die Berechtigung für Vibration (android.permission.VIBRATE) in Dashnut ausschließlich für optionales haptisches Feedback vorgesehen. Die Google Play Billing Library fügt die Berechtigungen für Käufe über Google Play (com.android.vending.BILLING), den Internetzugriff (android.permission.INTERNET) und das Abfragen des Netzwerkstatus (android.permission.ACCESS_NETWORK_STATE) hinzu. Diese drei Berechtigungen werden nur verwendet, um den optionalen einmaligen Kauf der Vollversion anzubieten, zu prüfen und wiederherzustellen. Der Spielcode selbst stellt keine Netzwerkanfragen. Die App greift nicht auf deinen Standort, deine Kontakte, deine Kamera, dein Mikrofon, deine Fotos oder deine Werbe-ID zu.
 
 Die einzige Komponente eines Drittanbieters in der App, die kommuniziert, ist die Google Play Billing Library unter Android. Sie wird ausschließlich für den unten beschriebenen optionalen Kauf der Vollversion verwendet.
 
