@@ -1,0 +1,28 @@
+{
+	"en": {
+		"home_meta_description": "Race a golden ghost as a flying squirrel in Dashnut, a 2D time trial runner coming soon to Android and iOS. Free to start.",
+		"home_hero_eyebrow": "Android and iOS. Free to start.",
+		"support_meta_description": "Help with Dashnut’s controls, ghosts, course unlocks, buying and restoring the full game, saved progress, offline play, languages and privacy.",
+		"faq_unlock_a": "Buying the full game opens the courses beyond the free selection. See the next question for details. In every world, you still unlock the seventh course by collecting all twelve acorns from the six main courses. Gold on all six unlocks the eighth, a faster Prism course.",
+		"faq_purchase_q": "What is free, and what does the full game include?",
+		"faq_purchase_a": "Find your feet, all of The Mill and Kite Crossing are free forever. A single purchase unlocks the other 31 courses. They stay unlocked offline. You still earn medals and acorns by racing. No subscription. No ads in the current version. Google Play shows the price and handles payment.",
+		"faq_restore_q": "How do I restore my purchase on a new phone or after reinstalling?",
+		"faq_restore_a": "On Android, sign in to Google Play with the same Google account. Open Settings and tap “Restore purchases”. You need an internet connection to restore. “Reset records” does not remove your purchase.",
+		"faq_offline_a": "No. Play offline without an account, including the full game once bought. You only need a connection to buy or restore the full game.",
+		"faq_privacy_a": "Dashnut collects no personal data and sends the developer nothing. Progress, records, settings and unlock status stay on your device. The optional purchase uses Google Play. The developer receives order information from Google, never payment details. See the Privacy Policy.",
+		"privacy_meta_description": "Dashnut collects no personal data. Game data stays on your device. The optional full game purchase runs through Google Play."
+	},
+	"de": {
+		"home_meta_description": "Als Flughörnchen gegen den goldenen Geist: Dashnut kommt bald für Android und iOS. Kurze 2D-Rennen gegen die Uhr, kostenlos spielbar, mit optionaler Vollversion.",
+		"home_hero_eyebrow": "Android und iOS. Kostenlos starten.",
+		"support_meta_description": "Hilfe zu Dashnut: Steuerung, Geister, Strecken freischalten, Vollversion kaufen und wiederherstellen, Spielstände, offline spielen, Sprachen und Datenschutz.",
+		"faq_unlock_a": "Die Vollversion öffnet die Strecken, die nicht zur kostenlosen Auswahl gehören. Mehr dazu in der nächsten Antwort. In jeder Welt schaltest du die siebte Strecke weiterhin mit allen zwölf Eicheln aus den sechs Hauptstrecken frei. Gold auf allen sechs öffnet die achte, eine schnellere Prism-Strecke.",
+		"faq_purchase_q": "Was ist kostenlos und was bietet die Vollversion?",
+		"faq_purchase_a": "Find your feet, alle Strecken von The Mill und Kite Crossing bleiben dauerhaft kostenlos. Ein einmaliger Kauf schaltet die übrigen 31 Strecken frei. Sie bleiben auch offline freigeschaltet. Medaillen und Eicheln erspielst du weiterhin. Kein Abo. Die aktuelle Version hat keine Werbung. Google Play zeigt den Preis und wickelt die Zahlung ab.",
+		"faq_restore_q": "Wie stelle ich meinen Kauf auf einem neuen Handy oder nach einer Neuinstallation wieder her?",
+		"faq_restore_a": "Melde dich auf Android mit demselben Google-Konto bei Google Play an. Öffne die Einstellungen und tippe auf „Käufe wiederherstellen“. Dafür brauchst du eine Internetverbindung. „Rekorde löschen“ entfernt deinen Kauf nicht.",
+		"faq_offline_a": "Nein. Dashnut läuft offline und ohne Konto, auch nach dem Kauf der Vollversion. Nur zum Kaufen oder Wiederherstellen der Vollversion brauchst du eine Internetverbindung.",
+		"faq_privacy_a": "Dashnut selbst erfasst keine personenbezogenen Daten und sendet dem Entwickler nichts. Fortschritt, Rekorde, Einstellungen und Freischaltstatus bleiben auf deinem Gerät. Beim optionalen Kauf über Google Play erhält der Entwickler Bestellinformationen, aber keine Zahlungsdaten. Mehr dazu unter Datenschutz.",
+		"privacy_meta_description": "Dashnut erfasst keine personenbezogenen Daten. Spieldaten bleiben auf deinem Gerät. Der optionale Kauf der Vollversion läuft über Google Play."
+	}
+}

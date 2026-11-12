@@ -13,6 +13,8 @@
 		{ id: 'controls', q: m.faq_controls_q(), a: m.faq_controls_a() },
 		{ id: 'ghost', q: m.faq_ghost_q(), a: m.faq_ghost_a() },
 		{ id: 'unlock', q: m.faq_unlock_q(), a: m.faq_unlock_a() },
+		{ id: 'purchase', q: m.faq_purchase_q(), a: m.faq_purchase_a() },
+		{ id: 'restore', q: m.faq_restore_q(), a: m.faq_restore_a() },
 		{ id: 'progress', q: m.faq_progress_q(), a: m.faq_progress_a() },
 		{ id: 'reset', q: m.faq_reset_q(), a: m.faq_reset_a() },
 		{ id: 'language', q: m.faq_language_q(), a: m.faq_language_a() },

@@ -1,17 +1,18 @@
-Last updated: 8 November 2026
+Last updated: 12 November 2026
 
 ## 1. Privacy at a glance
 
-This policy covers Dashnut version 1.0 for Android via Google Play and iOS via the App Store, and the official website that hosts this policy.
+This policy covers Dashnut, currently version 1.0, and its official website, including this page.
 
-- The game works fully offline. It sends no personal data or gameplay data to the developer.
-- Progress, records, personal best replays and settings are stored locally on your device. Your operating system may include app data in backups, depending on your settings.
-- The website processes technical data needed to deliver it securely and resolve errors. It uses no cookies, analytics or tracking.
-- If you email me, I use the information you send to answer your request.
+Dashnut works offline and sends no personal data or gameplay data to me. Your progress, records, replays and settings stay on your device. You do not need an account. The current version has no analytics or tracking.
 
-## 2. Who is responsible?
+The optional Android full game purchase uses Google Play. Google processes the purchase, and I receive order information for handling sales, refunds, support and bookkeeping.
 
-The controller is:
+When you visit the website, Cloudflare processes technical connection data to deliver and secure it. The website uses no cookies or tracking. If you email me, I process your message to answer you.
+
+## 2. Who is responsible
+
+I am Peter Ruß, the person behind Solo Stack and the controller responsible for the processing described in this policy.
 
 Peter Ruß  
 c/o POSTFLEX PFX-656-644  
@@ -21,76 +22,105 @@ Germany
 
 Email: [business@solo-stack.dev](mailto:business@solo-stack.dev)
 
-Solo Stack is my one person studio. You can use this email address for all privacy questions and requests.
+You can use this address for support and privacy requests.
 
-## 3. Data in the Dashnut app
+## 3. Data on your device
 
-### Local game data
+### What Dashnut stores
 
-Version 1.0 has no user accounts, analytics, tracking or third party analytics SDKs.
+Dashnut stores the following in its private storage on your device:
 
-The app stores the following in its private storage on your device:
-
-- Game progress.
-- Personal best times and medals.
+- Game progress, best times and medals.
 - Replays of your personal best runs, used for the optional personal best ghost.
 - Collected acorns.
 - Settings, such as language, sound, ghost visibility and haptics.
+- The full game unlock status, including the product, whether it is unlocked, its source and the time of the last update.
 
-This data never leaves your device through the app, and I do not receive it.
+The locally stored unlock status contains no payment data or Google account data. None of this stored data leaves your device through the app. I do not receive it, and I run no server for the app.
 
-Storing and accessing this information on your device is strictly necessary to provide the game you requested. The legal basis is section 25(2) no. 2 TDDDG.
+Storage on your device is strictly necessary to provide the game functions you request. Its legal basis is section 25(2) no. 2 of the German Telecommunications Digital Services Data Protection Act, or TDDDG.
 
-### Deleting local data
+### Resetting records and deleting data
 
-Choosing “Reset records” in Settings deletes your records and progress after you confirm. Your settings are kept.
+“Reset records” in Settings deletes your records and progress after you confirm. It keeps your settings and the full game unlock.
 
-Uninstalling the app deletes all of its local data from your device. Operating system backups are handled separately, as explained below.
+Uninstalling Dashnut deletes its data from your device. On Android, a purchased full game can be restored using “Restore purchases” in Settings with the same Google account. Resetting records does not remove the purchase.
 
-### Operating system backups
+### Device backups
 
-Depending on your device settings, app data may be included in operating system backups, such as Android backups to Google or iCloud device backups.
+Depending on your device settings, operating system backups may include app data. Examples include Android backups to Google and iCloud device backups.
 
-Google or Apple handles these backups under its own terms. I have no access to them.
+Google or Apple handles these backups under its own terms. I have no access to them. Deleting data from the app or uninstalling it does not determine what remains in those separately managed backups.
 
-### Permissions and device access
+### Permissions and communication
 
-On Android, the app requests only the vibration permission. It is used solely for optional haptic feedback.
+On Android, Dashnut requests only the vibration permission, used solely for optional haptic feedback. It does not access your location, contacts, camera, microphone, photos or advertising ID.
 
-The app does not access your location, contacts, camera, microphone, photos or advertising ID.
+The only third party component in the app that communicates is the Google Play Billing Library on Android. It is used solely for the optional full game purchase described below.
 
-### Links opened in your browser
+The About screen may open the support page or this policy in your browser. When you visit those pages, the website section of this policy applies.
 
-The About screen may open links to the support page or this policy in your browser. When you visit the official website, the website section of this policy applies.
+## 4. Optional full game purchase on Android
 
-## 4. Google Play and the App Store
+### Google Play processes the purchase
 
-Downloading Dashnut through a store involves processing by that store, for example in connection with your store account and download history.
+Dashnut is a free download with one optional one time purchase, the “full game”, which unlocks the remaining courses.
 
-The store operators are independent controllers. Their respective privacy policies apply to that processing.
+The purchase is sold and paid entirely through Google Play, operated by Google Ireland Limited, under Google’s terms. Google is an independent controller for your Google account, payment method and the purchase itself. See [Google’s privacy policy](https://policies.google.com/privacy).
 
-### Google Play
+I do not receive your payment details or Google account password.
+
+### How the app checks your purchase
+
+Dashnut uses the Google Play Billing Library to offer and check the purchase.
+
+When the app starts or returns to the foreground, and when you buy or tap “Restore purchases”, it asks Google Play on your device for product details and the price, and whether your Google account owns the full game. It also confirms a new purchase to Google Play by acknowledging it with the purchase token issued by Google.
+
+This exchange takes place between the app and Google Play only. I do not receive it.
+
+You need an internet connection only to buy or restore the full game. Without a connection, the game continues to work and an existing unlock remains valid. The unlock is removed only if Google Play reports that the purchase no longer exists, for example after a refund.
+
+The legal basis for this processing is Article 6(1)(b) GDPR, to provide the purchased content. Access to your device is based on section 25(2) no. 2 TDDDG because it is strictly necessary for the purchase function you request.
+
+### Order information available to me
+
+As the seller, I receive order information through the Google Play Console. This may include the order number, date, product, price, taxes and fees, order status, and the buyer’s country or region needed for tax purposes.
+
+Google also lets me look up an order using its order number or the buyer’s email address, for example to handle a refund or support request. Google determines which order information it makes available under its own terms.
+
+I use this information only to handle the sale, refunds, support requests and bookkeeping. The legal basis is Article 6(1)(b) GDPR for handling the purchase and related requests. Where tax or commercial law requires me to retain information, the legal basis is Article 6(1)(c) GDPR.
+
+I keep order information for as long as those legal retention duties require. Otherwise, I keep it no longer than needed for the stated purposes.
+
+### Future App Store version
+
+If the App Store version, which is not available yet, offers the full game, Apple will process that purchase under its own terms as an independent controller, and I will update this policy before that version is released.
+
+## 5. App stores and store reports
+
+Downloading Dashnut through a store is subject to that store’s privacy policy. The store operators are independent controllers for the data processed there, such as your store account and download history.
+
+Google Play is operated by:
 
 Google Ireland Limited  
-Gordon House  
-Barrow Street  
+Gordon House, Barrow Street  
 Dublin 4  
 Ireland
 
-### App Store
+The App Store is operated by:
 
 Apple Distribution International Ltd.  
 Hollyhill Industrial Estate  
 Hollyhill, Cork  
 Republic of Ireland
 
-I receive no data from the stores that identifies you personally.
+Apart from the purchase order information described above, I receive no data from the stores that identifies you personally.
 
-If you have allowed it in your device or store settings, Google and Apple may provide me with aggregated statistics and crash or performance reports that do not identify you. I use these only to fix errors and improve the game. The legal basis is Article 6(1)(f) GDPR, reflecting my legitimate interest in maintaining and improving the game.
+If you have allowed it in your device or store settings, Google and Apple may provide me with aggregated statistics and crash or performance reports that do not identify you. I use these only to fix errors and improve the game. The legal basis is Article 6(1)(f) GDPR, based on my legitimate interest in keeping Dashnut reliable and improving how it works.
 
-## 5. Visiting the website
+## 6. The website
 
-### Hosting and technical data
+### Hosting, delivery and security
 
 The website is hosted on Cloudflare Workers. Cloudflare also delivers its content and provides security functions.
 
@@ -104,89 +134,96 @@ USA
 Each visit involves processing technical data such as:
 
 - Your IP address.
-- The time of access.
-- The requested address.
-- The response status code.
-- The volume of data transferred.
+- The time of access and requested address.
+- The response status code and volume of data transferred.
 - Your browser and operating system.
-- The referring address, where your browser sends it.
+- The referring address, if your browser sends it.
 
-This processing is necessary to deliver the website securely and fix errors. Error and request logs are used for operation and troubleshooting.
+These data are processed to deliver the website securely and fix errors. Error and request logs support operation and troubleshooting.
 
-The legal basis is Article 6(1)(f) GDPR. My legitimate interest is operating a secure, reliable website and resolving technical problems.
+The legal basis is Article 6(1)(f) GDPR. My legitimate interests are providing a working, secure website and identifying and resolving technical problems.
 
-Logs are retained only as long as needed for these purposes, under Cloudflare’s deletion rules.
+Logs are retained only as long as needed for these purposes under Cloudflare’s deletion rules.
 
-### Cloudflare and international transfers
+Cloudflare’s processing on my behalf is governed by its [Data Processing Addendum](https://www.cloudflare.com/cloudflare-customer-dpa/). International transfers rely on the EU–US Data Privacy Framework and, where applicable, standard contractual clauses. Further information is available in [Cloudflare’s privacy policy](https://www.cloudflare.com/privacypolicy/).
 
-Processing on my behalf is governed by the [Cloudflare Data Processing Addendum](https://www.cloudflare.com/cloudflare-customer-dpa/).
+### No cookies or tracking
 
-International transfers rely on the EU–US Data Privacy Framework and, where applicable, standard contractual clauses.
+The website sets no cookies and stores nothing on your device. It uses no analytics or tracking, external fonts, embedded third party content or contact form. Fonts are served from the website itself.
 
-Further information is available in the [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/).
+## 7. Contact by email
 
-### Cookies and other device storage
+If you write to [business@solo-stack.dev](mailto:business@solo-stack.dev), I process your email address, your name if you provide it, your message and any data it contains to answer you.
 
-The website sets no cookies and stores nothing on your device. It uses no analytics or tracking, no external fonts and no embedded third party content. Fonts are served from the website itself.
+The legal basis is Article 6(1)(f) GDPR, based on my legitimate interest in responding to messages and providing support. Where your request relates to a contract, the legal basis is Article 6(1)(b) GDPR.
 
-There is no contact form.
+Providing information by email is voluntary. I need enough information to understand and answer your request.
 
-## 6. Contacting me by email
+Incoming messages are forwarded through Cloudflare Email Routing to a Gmail mailbox provided by Google Ireland Limited. The providers’ details appear above.
 
-If you write to [business@solo-stack.dev](mailto:business@solo-stack.dev), I process your email address, your name if you provide it, your message and any information it contains to answer your request.
+Google may process email data in the United States. Transfers are safeguarded through the EU–US Data Privacy Framework or standard contractual clauses, as applicable. See [Google’s privacy policy](https://policies.google.com/privacy) and [Cloudflare’s privacy policy](https://www.cloudflare.com/privacypolicy/).
 
-The legal basis is Article 6(1)(f) GDPR, reflecting my legitimate interest in responding to enquiries. Where your request relates to a contract, Article 6(1)(b) GDPR applies.
+I delete messages when they are no longer needed, unless legal retention duties require me to keep them.
 
-Incoming mail is forwarded by Cloudflare Email Routing to a Gmail mailbox provided by Google Ireland Limited. The providers’ addresses are listed in sections 4 and 5.
+You can contact me for further information about the applicable safeguards for international transfers.
 
-Google may process email data in the USA. International transfers rely on the EU–US Data Privacy Framework or standard contractual clauses.
+## 8. Children
 
-Messages are deleted when they are no longer needed, unless legal retention duties require them to be kept.
+The app itself collects no personal data from anyone, including children.
 
-## 7. Your privacy rights
+Android purchases run through Google Play. Google Play’s family and parental controls, such as purchase approval, apply.
 
-Subject to the conditions in Articles 15 to 21 GDPR, you have the right to:
+## 9. Security and automated decisions
 
-- **Access:** obtain information about whether and how your personal data is processed, and receive a copy.
-- **Rectification:** have inaccurate personal data corrected and incomplete data completed.
-- **Erasure:** have your personal data deleted where the legal requirements are met.
-- **Restriction:** have processing restricted in the circumstances provided by law.
-- **Data portability:** receive eligible data you provided in a structured, commonly used, machine readable format and have it transmitted to another controller where applicable.
-- **Objection:** object, on grounds relating to your particular situation, to processing based on Article 6(1)(f) GDPR.
+The website uses HTTPS/TLS to protect data during transmission.
 
-To exercise your rights, contact [business@solo-stack.dev](mailto:business@solo-stack.dev).
+Data stored by the app stays on your device, subject to the operating system backups described in section 3.
 
-I cannot access the game data stored on your device or your operating system backups. Section 3 explains how you can delete local game data.
+I do not use personal data for automated decision making or profiling.
 
-### Withdrawing consent
+## 10. Your rights
 
-No consent is currently requested for the processing described in this policy. Where processing is based on consent, you have the right to withdraw it at any time. Withdrawal does not affect the lawfulness of processing carried out before withdrawal.
+Subject to the applicable legal conditions, you have the following rights under Articles 15 to 21 GDPR:
+
+- **Access:** You can ask whether I process personal data about you and request information and a copy.
+- **Rectification:** You can ask me to correct inaccurate data or complete incomplete data.
+- **Erasure:** You can ask me to delete your personal data.
+- **Restriction:** You can ask me to restrict processing.
+- **Data portability:** Where the legal conditions apply, you can receive data you provided in a structured, commonly used, machine readable format and have it transferred to another controller.
+- **Objection:** You can object to processing based on Article 6(1)(f) GDPR, as explained below.
+
+These rights are subject to legal conditions and exceptions, including statutory retention duties.
+
+I cannot access, retrieve or delete data stored only on your device. You can manage that data using the controls described in section 3.
+
+To exercise your rights, write to [business@solo-stack.dev](mailto:business@solo-stack.dev).
+
+### Your right to object
+
+You can object at any time, on grounds relating to your particular situation, to processing based on Article 6(1)(f) GDPR.
+
+I will then stop that processing unless I can demonstrate compelling legitimate grounds that override your interests, rights and freedoms, or the processing is needed to establish, exercise or defend legal claims.
+
+### Withdrawal of consent
+
+Where processing is based on consent, you can withdraw it at any time. Withdrawal does not affect the lawfulness of processing carried out before withdrawal. I do not currently ask you for consent for the processing described in this policy.
 
 ### Complaints
 
-You have the right to lodge a complaint with a data protection supervisory authority, for example:
+You have the right to lodge a complaint with a data protection supervisory authority, particularly in the country where you usually live or work, or where you believe an infringement has occurred.
 
+For example, you can contact:
+
+Bavarian State Office for Data Protection Supervision  
 Bayerisches Landesamt für Datenschutzaufsicht  
 Promenade 18  
 91522 Ansbach  
 Germany
 
-Website: [Bavarian State Office for Data Protection Supervision](https://www.lda.bayern.de)
+Website: [Bayerisches Landesamt für Datenschutzaufsicht](https://www.lda.bayern.de)
 
-## 8. Children and automated decision making
+## 11. Changes to this policy
 
-The app collects no personal data from anyone, including children.
+I update this policy when the app or website changes, particularly before a future version adds features that process personal data, such as advertising.
 
-There is no automated decision making or profiling.
-
-## 9. Security
-
-The website uses HTTPS/TLS to protect data in transit.
-
-Game data stays in the app’s private storage on your device and is not transmitted to me. Operating system backups may include that data as described in section 3.
-
-## 10. Changes to this policy
-
-This policy is updated when the app or website changes, particularly before a future version adds features that process personal data, such as advertising.
-
-The date at the top identifies the current version of this policy.
+The date at the top shows when this policy was last updated.

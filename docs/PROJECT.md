@@ -29,7 +29,7 @@ All visitor facing text is generated with `gpt-6.1-sol` (see [AGENTS.md](../AGEN
 - **English** as the base language and a natural **German** adaptation (du form). German uses the game's own terms: „Strecke“ (course), „Einstellungen“, „Rekorde löschen“.
 - Playful, warm and confident, short and concrete like a good store listing. No marketing clichés, no emoji, at most a couple of exclamation marks.
 - Natural phrasing **without hyphens or dashes** as punctuation.
-- **No invented facts.** Only what [copy/FACTS.md](copy/FACTS.md) states. In particular: no release dates, no "no ads" claims (ads are planned for 1.0), no download numbers, no languages beyond EN/DE.
+- **No invented facts.** Only what [copy/FACTS.md](copy/FACTS.md) states. In particular: no release dates, no prices (Google Play shows them), "no ads" only for the current version (1.0 has no ads), no download numbers, no languages beyond EN/DE.
 - Proper nouns stay unchanged in every language: Dashnut, The Mill, The Kitewoods, Frostwell Ruins, Bloomworks, Sunbanner Citadel, Find your feet, Prism.
 
 Copy files: `docs/copy/site-*` (UI strings → `messages/`), `impressum-*`, `privacy-en-*`, `privacy-de-*` (→ `src/content/legal/`).
@@ -42,5 +42,4 @@ Captured from the real game with Godot 4.7.2 at 2560×1440 (content scale 1280×
 
 - **Domain**: `dashnut.app` (production) and `staging.dashnut.app`, set in `vite.config.ts` (`origins`) and `wrangler.jsonc` (`routes`).
 - **Store URLs**: `src/lib/site.ts` → `STORE_URLS`; then replace the generic badges with the official Google Play / App Store badge artwork.
-- **Ads**: before the ads build ships, update `docs/copy/FACTS.md` and the privacy prompt with the ad provider, regenerate both privacy texts, update the support FAQ answer about data, and add `static/app-ads.txt` (AdMob).
 - **USt-IdNr.**: replace „beantragt“ in the imprint once it is assigned (regenerate with the impressum prompt).

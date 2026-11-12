@@ -28,7 +28,6 @@ pnpm dev
 ## Before launch
 
 - Put the store URLs into `src/lib/site.ts` once the listings are live, and swap the badges for the official artwork.
-- Update the privacy policy before a game version with ads ships (and add `static/app-ads.txt` for AdMob).
 
 ## Docs
 
