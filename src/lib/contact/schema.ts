@@ -1,0 +1,28 @@
+import * as v from 'valibot';
+
+/** What a message is about (goes into the mail subject). Labels: `contact_topic_*` messages. */
+export const CONTACT_TOPICS = ['support', 'purchase', 'feedback', 'privacy', 'other'] as const;
+export type ContactTopic = (typeof CONTACT_TOPICS)[number];
+
+/** Limits shared by the inputs (`maxlength`) and the schema. */
+export const CONTACT_LIMITS = { name: 120, email: 254, messageMin: 20, messageMax: 5000 } as const;
+
+/**
+ * Validated in the browser (`preflight`) and on the server. Issue messages are field codes; the page shows `contact_error_*`
+ * instead (the remote endpoint has no locale in its URL, so the server could only answer in the base locale).
+ * `turnstile`: hidden input with the widget token. `website`: honeypot, hidden from people.
+ */
+export const ContactSchema = v.object({
+	topic: v.picklist(CONTACT_TOPICS, 'topic'),
+	// No control characters: the name goes into the mail subject and the Reply-To display name.
+	name: v.pipe(v.string('name'), v.trim(), v.nonEmpty('name'), v.regex(/^\P{Cc}*$/u, 'name'), v.maxLength(CONTACT_LIMITS.name, 'name')),
+	email: v.pipe(v.string('email'), v.trim(), v.email('email'), v.maxLength(CONTACT_LIMITS.email, 'email')),
+	message: v.pipe(v.string('message'), v.trim(), v.minLength(CONTACT_LIMITS.messageMin, 'message'), v.maxLength(CONTACT_LIMITS.messageMax, 'message')),
+	website: v.optional(v.string(), ''),
+	turnstile: v.pipe(v.string('turnstile'), v.nonEmpty('turnstile'))
+});
+
+export type ContactInput = v.InferOutput<typeof ContactSchema>;
+
+/** A validated message, without the spam protection fields. */
+export type ContactMessage = Omit<ContactInput, 'website' | 'turnstile'>;

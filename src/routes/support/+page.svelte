@@ -1,5 +1,5 @@
 <!--
-	Support page: the store "support URL" (required by Apple, used for Google Play too). Contact card plus FAQ as native
+	Support page: the store "support URL" (required by Apple, used for Google Play too). Contact card (email, link to the /contact form) plus FAQ as native
 	<details> (works without JS, searchable with Ctrl+F in Chromium).
 -->
 <script lang="ts">
@@ -51,6 +51,10 @@
 				>
 				{CONTACT_EMAIL}
 			</a>
+			<p class="mt-5 leading-relaxed text-parchment">
+				{m.support_form_text()}
+				<a href={localizeHref('/contact')} class="font-bold text-cream underline decoration-amber decoration-2 underline-offset-4">{m.support_form_link()}</a>
+			</p>
 		</div>
 	</section>
 

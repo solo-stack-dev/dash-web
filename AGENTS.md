@@ -13,11 +13,11 @@ Any text that ships to visitors must be generated with OpenAI **`gpt-6.1-sol`**.
 
 ## Stack in one glance
 
-SvelteKit 3 + Svelte 5 (runes, experimental `async`) on Cloudflare Workers, fully prerendered (no bindings, no secrets). Tailwind CSS 4, mdsvex for the legal Markdown, Paraglide for i18n (`en` base at `/`, `de` at `/de`), `@sveltejs/enhanced-img` for every image, super-sitemap.
+SvelteKit 3 + Svelte 5 (runes, experimental `async`) on Cloudflare Workers, every page prerendered. The one dynamic part is the `/contact` form (`src/lib/contact/`): a `form` remote function with valibot, Cloudflare Turnstile (secret `TURNSTILE_SECRET_KEY` in `.env.<env>`, see `.env.example`) and a `send_email` binding. Tailwind CSS 4, mdsvex for the legal Markdown, Paraglide for i18n (`en` base at `/`, `de` at `/de`), `@sveltejs/enhanced-img` for every image, super-sitemap.
 
 ## Conventions
 
-- **Everything is static** (`export const prerender = true` in the root layout). If data loading or a form is ever needed, use SvelteKit remote functions (`query`, `prerender`, `command`, `form` in `*.remote.ts`) validated with valibot, not `+page.server.ts` loads or API routes.
+- **Every page is static** (`export const prerender = true` in the root layout). For data loading or forms use SvelteKit remote functions (`query`, `prerender`, `command`, `form` in `*.remote.ts`) validated with valibot, not `+page.server.ts` loads or API routes.
 - Import from `src/lib` via the `#lib/*` subpath import (see `package.json` `imports`).
 - UI strings go through Paraglide messages in `messages/{locale}.json`; `src/lib/paraglide` is generated, never edit it. Game proper nouns (world and course names, "Dashnut") stay in code.
 - Game facts and publisher details live in `src/lib/site.ts`; store URLs there switch the "coming soon" badges to links.

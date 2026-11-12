@@ -2,7 +2,7 @@
 // Never edit message values by hand: change the prompt, run `pnpm copy <name>`, then `node scripts/messages.mjs`.
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const OUTPUTS = ['site', 'site-fix', 'site-fix-imprint', 'site-fix-purchase'];
+const OUTPUTS = ['site', 'site-fix', 'site-fix-imprint', 'site-fix-purchase', 'site-contact'];
 /** Generated but not used on the site */
 const UNUSED = new Set(['legal_updated']);
 

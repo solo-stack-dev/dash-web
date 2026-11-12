@@ -1,6 +1,6 @@
 <!--
 	@component
-	Footer: legal and support links (reachable from every page, as the stores and § 5 DDG require), studio credit, copyright.
+	Footer: legal, support and contact links (reachable from every page, as the stores and § 5 DDG require), studio credit, copyright.
 -->
 <script lang="ts">
 	import appIcon from '#lib/assets/app-icon.webp?w=96;192&enhanced';
@@ -26,6 +26,7 @@
 
 		<nav class="flex flex-wrap gap-x-6 gap-y-2 font-bold text-parchment">
 			<a href={href('/support')} class="footer-link">{m.site_footer_support()}</a>
+			<a href={href('/contact')} class="footer-link">{m.site_footer_contact()}</a>
 			<a href={href('/privacy')} class="footer-link">{m.site_footer_privacy()}</a>
 			<a href={href('/impressum')} class="footer-link">{m.site_footer_imprint()}</a>
 		</nav>

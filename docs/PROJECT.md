@@ -12,6 +12,7 @@ Audience: players arriving from a store listing or a link, and store reviewers c
 | ----------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | `/`                           | Hero with store badges, screenshot carousel, features, five worlds, controls, call to action | Marketing URL (Apple), website (Google Play) |
 | `/support`                    | Contact email and FAQ (controls, ghost, unlocks, saves, reset, language, offline, privacy)   | Support URL                                  |
+| `/contact`                    | Contact form (Turnstile, mailed via Cloudflare Email Sending), second channel next to email  | –                                            |
 | `/privacy`                    | Privacy policy for the app and the website, EN and DE                                        | Privacy policy URL                           |
 | `/impressum`                  | Imprint, German in every locale, one canonical URL                                           | –                                            |
 | `/robots.txt`, `/sitemap.xml` | Prerendered per build mode; staging disallows crawling                                       | –                                            |
@@ -42,5 +43,5 @@ Captured from the real game with Godot 4.7.2 at 2560×1440 (content scale 1280×
 
 - **Domain**: `dashnut.app` (production) and `staging.dashnut.app`, set in `vite.config.ts` (`origins`) and `wrangler.jsonc` (`routes`).
 - **Store URLs**: `src/lib/site.ts` → `STORE_URLS`; then replace the generic badges with the official Google Play / App Store badge artwork.
-- **Contact form**: required as the second contact channel next to email (no phone on the site). Decision, reasons and follow-up steps: [LEGAL-CONTACT.md](LEGAL-CONTACT.md).
+- **Contact form**: built at `/contact` (second contact channel next to email, no phone on the site). Secret `TURNSTILE_SECRET_KEY` in `.env.staging` / `.env.production` (site key in `src/lib/contact/turnstile.ts`). Decision and remaining legal text steps: [LEGAL-CONTACT.md](LEGAL-CONTACT.md).
 - **USt-IdNr.**: replace „beantragt“ in the imprint once it is assigned (regenerate with the impressum prompt).

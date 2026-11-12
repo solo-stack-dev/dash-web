@@ -22,6 +22,6 @@
 
 ## Next steps
 
-- [ ] **Add the contact form** (owner, separate thread). Per AGENTS.md: a SvelteKit `form` remote function in a `*.remote.ts` file, validated with valibot. This ends "no secrets" (a mail service needs an API key) and the page with the form can no longer be purely prerendered.
-- [ ] Then update `docs/copy/impressum-prompt.md` to list email and the form as contact channels, regenerate with `pnpm copy impressum md`, and copy the result into `src/content/legal/impressum.md`. Mention the form in the privacy policy (what it collects, why, how long it is kept) via the privacy prompts.
-- [ ] Link the form from `/support` as well.
+- [x] **Add the contact form**: `/contact`, a `form` remote function (`src/lib/contact/contact.remote.ts`) validated with valibot, Cloudflare Turnstile against spam (secret `TURNSTILE_SECRET_KEY`), mailed through a Cloudflare Email Sending binding from `contact@solo-stack.dev` to the public contact address, Reply-To the visitor (same setup as solo-stack.dev). The page stays prerendered; only the submission runs in the Worker. Nothing is stored: the message exists only in the mail (and in Workers Logs if sending fails).
+- [ ] Then update `docs/copy/impressum-prompt.md` to list email and the form as contact channels, regenerate with `pnpm copy impressum md`, and copy the result into `src/content/legal/impressum.md`. Mention the form in the privacy policy (what it collects, why, how long it is kept; Cloudflare Turnstile as the spam check, which runs in the visitor's browser, and Cloudflare Email Sending as the mail processor) via the privacy prompts. Do this before the form goes live.
+- [x] Link the form from `/support` (and the footer).
