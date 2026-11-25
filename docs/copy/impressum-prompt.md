@@ -19,5 +19,5 @@ Anforderungen:
 - Kurzer Hinweis zur Verbraucherstreitbeilegung nach § 36 VSBG (Paragraph als Link auf https://www.gesetze-im-internet.de/vsbg/__36.html): nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 - Keine pauschalen Haftungsausschlüsse, keine Urheberrechtsfloskeln, kein Füllstoff. Knapp, korrekt, sachlich.
 - Natürliches Deutsch, ohne Bindestriche oder Gedankenstriche als Satzzeichen. Übliche rechtliche Fachbegriffe behalten ihre Schreibweise. Keine zusätzlichen Spielinformationen aus dem gemeinsamen Faktenblatt aufnehmen.
-- Ausgabe: nur Markdown, ohne Hauptüberschrift (die Seite setzt „Impressum“ selbst als H1). Abschnitte als „## Überschrift“. Adresszeilen mit Zeilenumbruch (zwei Leerzeichen am Zeilenende). E-Mail als Markdown Link mit mailto:.
+- Ausgabe: nur Markdown, ohne Hauptüberschrift (die Seite setzt „Impressum“ selbst als H1). Abschnitte als „## Überschrift“. Adresszeilen mit Zeilenumbruch: ein Backslash am Zeilenende, keine zwei Leerzeichen (die Seite rendert Markdown mit mdsvex 1.0). Fettdruck, falls nötig, mit einfachen Sternchen (`*fett*`), nie mit doppelten. E-Mail als Markdown Link mit mailto:.
 - Gib ausschließlich den Markdown Text aus, ohne Erklärung davor oder danach. Keine Werkzeuge benutzen.

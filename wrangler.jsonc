@@ -3,10 +3,10 @@
 	"name": "dashnut-web",
 	"compatibility_date": "2026-11-08",
 	"compatibility_flags": ["nodejs_als"],
-	"main": ".svelte-kit/cloudflare/_worker.js",
+	// adapter-cloudflare sets `main` and `assets.directory` and writes the deploy config for the build output
+	// (`.wrangler/deploy/config.json`). The build picks the environment (CLOUDFLARE_ENV, set in vite.config.ts).
 	"assets": {
-		"binding": "ASSETS",
-		"directory": ".svelte-kit/cloudflare"
+		"binding": "ASSETS"
 	},
 	// Inherited by every environment: no public *.workers.dev or version/preview URLs,
 	// not even for an accidental `wrangler deploy` without `--env`.

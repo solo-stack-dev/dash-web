@@ -19,6 +19,14 @@ const origins: Record<string, string> = {
 // 'production' even under `--mode staging`. The first load (the CLI's real mode) wins and is kept for the later ones.
 const buildMode = (mode: string) => (process.env.DASHNUT_BUILD_MODE ??= mode);
 
+// adapter-cloudflare resolves the Wrangler environment at build time (from CLOUDFLARE_ENV) and writes it into the deploy
+// config, so `wrangler deploy --env <env>` only accepts a build made for that environment. The staging and production
+// modes build for their environment; `dev`, `preview` and `analyze` use the top-level config. CLOUDFLARE_ENV is set
+// here, not in `.env.<mode>`, because every key in those files is uploaded as a Worker secret.
+function selectWorkerEnvironment(mode: string) {
+	if (mode in origins) process.env.CLOUDFLARE_ENV ??= mode;
+}
+
 // enhanced-img encodes AVIF + WebP + a fallback, and the fallback is PNG for every image with alpha (JPEG otherwise):
 // files no browser fetches, since every supported browser takes WebP. Appending `format=avif;webp` to every enhanced
 // import (an explicit `format` wins over the plugin's defaults) makes WebP the `<img>` fallback. `<enhanced:img src="…">`
@@ -37,31 +45,35 @@ function enhancedImagesWithoutLegacyFallback(): Plugin {
 	};
 }
 
-export default defineConfig(({ mode }) => ({
-	build: {
-		rolldownOptions: {
-			// `pnpm analyze` only: the report is emitted into the build output, so a deploy build must not contain it
-			plugins: mode === 'analyze' ? [bundleAnalyzerPlugin({ format: 'md' /* or 'json' */ })] : []
-		}
-	},
-	plugins: [
-		enhancedImagesWithoutLegacyFallback(),
-		enhancedImages(),
-		tailwindcss(),
-		sveltekit({
-			compilerOptions: {
-				experimental: { async: true }
-			},
-			adapter: adapter(),
-			// Legal texts are Markdown (src/content/legal/), generated with gpt-6.1-sol (docs/copy/)
-			preprocess: [mdsvex({ extensions: ['.md'] })],
-			extensions: ['.svelte', '.md'],
-			experimental: { remoteFunctions: true },
-			paths: { origin: origins[buildMode(mode)] },
-			inspector: true
-		}),
+export default defineConfig(({ mode }) => {
+	selectWorkerEnvironment(buildMode(mode));
+	return {
+		build: {
+			rolldownOptions: {
+				// `pnpm analyze` only: the report is emitted into the build output, so a deploy build must not contain it
+				plugins: mode === 'analyze' ? [bundleAnalyzerPlugin({ format: 'md' /* or 'json' */ })] : []
+			}
+		},
+		plugins: [
+			enhancedImagesWithoutLegacyFallback(),
+			enhancedImages(),
+			tailwindcss(),
+			// Legal texts are Markdown (src/content/legal/), generated with gpt-6.1-sol (docs/copy/). mdsvex compiles them to
+			// Svelte, so it runs before sveltekit(), whose `extensions` must list `.md` too.
+			mdsvex({ extensions: ['.md'] }),
+			sveltekit({
+				compilerOptions: {
+					experimental: { async: true }
+				},
+				adapter: adapter(),
+				extensions: ['.svelte', '.md'],
+				experimental: { remoteFunctions: true },
+				paths: { origin: origins[buildMode(mode)] },
+				inspector: true
+			}),
 
-		// Options (strategy, outdir, …) live in project.inlang/paraglide.config.ts, shared with the CLI
-		paraglideVitePlugin({ project: './project.inlang' })
-	]
-}));
+			// Options (strategy, outdir, …) live in project.inlang/paraglide.config.ts, shared with the CLI
+			paraglideVitePlugin({ project: './project.inlang' })
+		]
+	};
+});

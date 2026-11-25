@@ -13,7 +13,7 @@ Any text that ships to visitors must be generated with OpenAI **`gpt-6.1-sol`**.
 
 ## Stack in one glance
 
-SvelteKit 3 + Svelte 5 (runes, experimental `async`) on Cloudflare Workers, every page prerendered. The one dynamic part is the `/contact` form (`src/lib/contact/`): a `form` remote function with valibot, Cloudflare Turnstile (secret `TURNSTILE_SECRET_KEY` in `.env.<env>`, see `.env.example`) and a `send_email` binding. Tailwind CSS 4, mdsvex for the legal Markdown, Paraglide for i18n (`en` base at `/`, `de` at `/de`), `@sveltejs/enhanced-img` for every image, super-sitemap.
+SvelteKit 3 + Svelte 5 (runes, experimental `async`) on Cloudflare Workers, every page prerendered. The one dynamic part is the `/contact` form (`src/lib/contact/`): a `form` remote function with valibot, Cloudflare Turnstile (secret `TURNSTILE_SECRET_KEY` in `.env.<env>`, see `.env.example`) and a `send_email` binding. Tailwind CSS 4, mdsvex 1.0 (Vite plugin) for the legal Markdown (its own dialect: `*bold*`, `_italic_`, a trailing `\` for a line break), Paraglide for i18n (`en` base at `/`, `de` at `/de`), `@sveltejs/enhanced-img` for every image, super-sitemap.
 
 ## Conventions
 

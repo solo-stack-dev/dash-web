@@ -14,13 +14,13 @@ Die Website verarbeitet technische Verbindungsdaten, um ihre Seiten bereitzustel
 
 Ich bin Peter Ruß und betreibe das Einpersonenstudio Solo Stack. Ich bin der Verantwortliche für die in dieser Datenschutzerklärung beschriebenen Verarbeitungen, sofern nicht ein anderer Anbieter als eigenständiger Verantwortlicher benannt wird.
 
-Peter Ruß  
-c/o POSTFLEX PFX-656-644  
-Emsdettener Straße 10  
-48268 Greven  
-Deutschland  
+Peter Ruß\
+c/o POSTFLEX PFX-656-644\
+Emsdettener Straße 10\
+48268 Greven\
+Deutschland
 
-E-Mail: [business@solo-stack.dev](mailto:business@solo-stack.dev)  
+E-Mail: [business@solo-stack.dev](mailto:business@solo-stack.dev)\
 Kontaktformular: [Kontakt](/de/contact)
 
 Du kannst beide Kontaktmöglichkeiten für Support, Datenschutzfragen und die Ausübung deiner Rechte nutzen.
@@ -55,10 +55,10 @@ Unter iOS können Gerätesicherungen in iCloud je nach deinen Geräteeinstellung
 
 Die Android-App deklariert vier Berechtigungen:
 
-* **Vibration**, für optionales haptisches Feedback.
-* **Abrechnung über Google Play**, für den optionalen einmaligen Kauf der Vollversion.
-* **Internetzugriff**, für die Abrechnung über Google Play und deren technische Diagnosedaten.
-* **Zugriff auf den Netzwerkstatus**, für die Abrechnung über Google Play und deren technische Diagnosedaten.
+* *Vibration*, für optionales haptisches Feedback.
+* *Abrechnung über Google Play*, für den optionalen einmaligen Kauf der Vollversion.
+* *Internetzugriff*, für die Abrechnung über Google Play und deren technische Diagnosedaten.
+* *Zugriff auf den Netzwerkstatus*, für die Abrechnung über Google Play und deren technische Diagnosedaten.
 
 Die Google Play Billing Library fügt die letzten drei Berechtigungen hinzu.
 
@@ -116,8 +116,8 @@ Die iOS-Version ist noch nicht verfügbar. Falls sie die Vollversion anbietet, w
 
 Wenn du Dashnut herunterlädst, verarbeitet der jeweilige Store Daten wie deine Kontoinformationen und deinen Downloadverlauf als eigenständiger Verantwortlicher:
 
-* **Google Play:** Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Siehe die [Google-Datenschutzerklärung](https://policies.google.com/privacy).
-* **App Store:** Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Irland. Siehe die [Apple-Datenschutzerklärung](https://www.apple.com/legal/privacy/).
+* *Google Play:* Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Siehe die [Google-Datenschutzerklärung](https://policies.google.com/privacy).
+* *App Store:* Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Irland. Siehe die [Apple-Datenschutzerklärung](https://www.apple.com/legal/privacy/).
 
 Abgesehen von den in Abschnitt 4 beschriebenen Bestellinformationen erhalte ich von den Stores keine Daten, die dich persönlich identifizieren.
 
@@ -226,10 +226,10 @@ Wenn du widersprichst, stelle ich diese Verarbeitung ein, sofern ich keine zwing
 
 Du hast das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren, beispielsweise bei:
 
-Bayerisches Landesamt für Datenschutzaufsicht  
-Promenade 18  
-91522 Ansbach  
-Deutschland  
+Bayerisches Landesamt für Datenschutzaufsicht\
+Promenade 18\
+91522 Ansbach\
+Deutschland
 
 Website: [Bayerisches Landesamt für Datenschutzaufsicht](https://www.lda.bayern.de)
 

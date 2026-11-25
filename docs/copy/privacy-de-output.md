@@ -18,7 +18,7 @@ Peter Ruß
 c/o POSTFLEX PFX-656-644  
 Emsdettener Straße 10  
 48268 Greven  
-Deutschland  
+Deutschland
 
 E-Mail: [business@solo-stack.dev](mailto:business@solo-stack.dev)  
 Kontaktformular: [Kontakt](/de/contact)
@@ -31,11 +31,11 @@ Du kannst beide Kontaktmöglichkeiten für Support, Datenschutzfragen und die Au
 
 Dashnut speichert folgende Daten im privaten Speicherbereich der App auf deinem Gerät:
 
-* Spielfortschritt, persönliche Bestzeiten und Medaillen.
-* Wiederholungen deiner persönlichen Bestläufe, die für den optionalen Geist deiner persönlichen Bestzeit verwendet werden.
-* Gesammelte Eicheln.
-* Einstellungen wie Sprache, Ton, Sichtbarkeit der Geister und haptisches Feedback.
-* Den Freischaltstatus der Vollversion, einschließlich des Produkts, seines Freischaltzustands, der Quelle der Freischaltung und des Zeitpunkts der letzten Aktualisierung. Diese Daten enthalten keine Zahlungsdaten oder Daten deines Google-Kontos.
+- Spielfortschritt, persönliche Bestzeiten und Medaillen.
+- Wiederholungen deiner persönlichen Bestläufe, die für den optionalen Geist deiner persönlichen Bestzeit verwendet werden.
+- Gesammelte Eicheln.
+- Einstellungen wie Sprache, Ton, Sichtbarkeit der Geister und haptisches Feedback.
+- Den Freischaltstatus der Vollversion, einschließlich des Produkts, seines Freischaltzustands, der Quelle der Freischaltung und des Zeitpunkts der letzten Aktualisierung. Diese Daten enthalten keine Zahlungsdaten oder Daten deines Google-Kontos.
 
 Diese lokal gespeicherten Daten verlassen dein Gerät nicht über die App, und ich kann nicht darauf zugreifen. Das Speichern und Auslesen dieser Daten ist unbedingt erforderlich, um dir das von dir gewünschte Spiel bereitzustellen. Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes, kurz TDDDG.
 
@@ -55,10 +55,10 @@ Unter iOS können Gerätesicherungen in iCloud je nach deinen Geräteeinstellung
 
 Die Android-App deklariert vier Berechtigungen:
 
-* **Vibration**, für optionales haptisches Feedback.
-* **Abrechnung über Google Play**, für den optionalen einmaligen Kauf der Vollversion.
-* **Internetzugriff**, für die Abrechnung über Google Play und deren technische Diagnosedaten.
-* **Zugriff auf den Netzwerkstatus**, für die Abrechnung über Google Play und deren technische Diagnosedaten.
+- **Vibration**, für optionales haptisches Feedback.
+- **Abrechnung über Google Play**, für den optionalen einmaligen Kauf der Vollversion.
+- **Internetzugriff**, für die Abrechnung über Google Play und deren technische Diagnosedaten.
+- **Zugriff auf den Netzwerkstatus**, für die Abrechnung über Google Play und deren technische Diagnosedaten.
 
 Die Google Play Billing Library fügt die letzten drei Berechtigungen hinzu.
 
@@ -86,13 +86,13 @@ Eine Internetverbindung ist nur erforderlich, um die Vollversion zu kaufen oder 
 
 Die Google Play Billing Library 9.1.0 verfügt über eine eigene Diagnoseprotokollierung. Über Google datatransport sendet sie folgende Daten an Google:
 
-* Ergebnisse und Fehler von Abrechnungsaufrufen sowie Probleme bei der Verbindung zum Dienst.
-* Gerätemodell und Hersteller.
-* Android-Version und Build.
-* App-Version.
-* Sprach- und Ländereinstellung.
-* Zeitzone.
-* Netzwerktyp und Mobilfunkanbieterkennung, bekannt als MCC/MNC.
+- Ergebnisse und Fehler von Abrechnungsaufrufen sowie Probleme bei der Verbindung zum Dienst.
+- Gerätemodell und Hersteller.
+- Android-Version und Build.
+- App-Version.
+- Sprach- und Ländereinstellung.
+- Zeitzone.
+- Netzwerktyp und Mobilfunkanbieterkennung, bekannt als MCC/MNC.
 
 Diese Diagnosedaten können immer dann übermittelt werden, wenn die Bibliothek ausgeführt wird, auch wenn sie beim App-Start oder bei der Rückkehr der App in den Vordergrund eine Verbindung herstellt. Die Übermittlung ist nicht auf Kaufversuche beschränkt. Die Diagnosedaten enthalten keine Standortdaten, Kontakte, Werbe-ID oder Spieldaten.
 
@@ -116,8 +116,8 @@ Die iOS-Version ist noch nicht verfügbar. Falls sie die Vollversion anbietet, w
 
 Wenn du Dashnut herunterlädst, verarbeitet der jeweilige Store Daten wie deine Kontoinformationen und deinen Downloadverlauf als eigenständiger Verantwortlicher:
 
-* **Google Play:** Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Siehe die [Google-Datenschutzerklärung](https://policies.google.com/privacy).
-* **App Store:** Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Irland. Siehe die [Apple-Datenschutzerklärung](https://www.apple.com/legal/privacy/).
+- **Google Play:** Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Siehe die [Google-Datenschutzerklärung](https://policies.google.com/privacy).
+- **App Store:** Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Irland. Siehe die [Apple-Datenschutzerklärung](https://www.apple.com/legal/privacy/).
 
 Abgesehen von den in Abschnitt 4 beschriebenen Bestellinformationen erhalte ich von den Stores keine Daten, die dich persönlich identifizieren.
 
@@ -203,12 +203,12 @@ Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO, gestützt auf mein berechtigtes 
 
 Unter den Voraussetzungen der Art. 15 bis 21 DSGVO hast du das Recht auf:
 
-* Auskunft über deine personenbezogenen Daten und deren Verarbeitung.
-* Berichtigung unrichtiger und Vervollständigung unvollständiger Daten.
-* Löschung personenbezogener Daten.
-* Einschränkung der Verarbeitung.
-* Erhalt deiner Daten in einem übertragbaren Format und deren Übermittlung, soweit die gesetzlichen Voraussetzungen vorliegen.
-* Widerspruch gegen eine Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
+- Auskunft über deine personenbezogenen Daten und deren Verarbeitung.
+- Berichtigung unrichtiger und Vervollständigung unvollständiger Daten.
+- Löschung personenbezogener Daten.
+- Einschränkung der Verarbeitung.
+- Erhalt deiner Daten in einem übertragbaren Format und deren Übermittlung, soweit die gesetzlichen Voraussetzungen vorliegen.
+- Widerspruch gegen eine Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
 
 Wenn eine Verarbeitung auf einer Einwilligung beruht, kannst du diese jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt davon unberührt. Für die in dieser Datenschutzerklärung beschriebenen Verarbeitungen bitte ich derzeit nicht um eine Einwilligung.
 
@@ -229,7 +229,7 @@ Du hast das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren, be
 Bayerisches Landesamt für Datenschutzaufsicht  
 Promenade 18  
 91522 Ansbach  
-Deutschland  
+Deutschland
 
 Website: [Bayerisches Landesamt für Datenschutzaufsicht](https://www.lda.bayern.de)
 

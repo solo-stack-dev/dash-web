@@ -14,13 +14,13 @@ The website processes technical connection data to deliver and protect its pages
 
 I am Peter Ruß, operating the one person studio Solo Stack. I am the controller responsible for the processing described in this policy unless another provider is identified as an independent controller.
 
-Peter Ruß  
-c/o POSTFLEX PFX-656-644  
-Emsdettener Straße 10  
-48268 Greven  
-Germany  
+Peter Ruß\
+c/o POSTFLEX PFX-656-644\
+Emsdettener Straße 10\
+48268 Greven\
+Germany
 
-Email: [business@solo-stack.dev](mailto:business@solo-stack.dev)  
+Email: [business@solo-stack.dev](mailto:business@solo-stack.dev)\
 Contact form: [Contact](/contact)
 
 You can use either channel for support, privacy questions and requests to exercise your rights.
@@ -55,10 +55,10 @@ On iOS, depending on your device settings, iCloud device backups may include app
 
 The Android app declares four permissions:
 
-* **Vibration**, for optional haptic feedback.
-* **Google Play billing**, for the optional one time full game purchase.
-* **Internet access**, for Google Play billing and its technical diagnostics.
-* **Network status access**, for Google Play billing and its technical diagnostics.
+* *Vibration*, for optional haptic feedback.
+* *Google Play billing*, for the optional one time full game purchase.
+* *Internet access*, for Google Play billing and its technical diagnostics.
+* *Network status access*, for Google Play billing and its technical diagnostics.
 
 The Google Play Billing Library adds the last three permissions.
 
@@ -116,8 +116,8 @@ The iOS version is not available yet; if it offers the full game, Apple will pro
 
 When you download Dashnut, the respective store processes data such as your account information and download history as an independent controller:
 
-* **Google Play:** Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. See the [Google Privacy Policy](https://policies.google.com/privacy).
-* **App Store:** Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Republic of Ireland. See the [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
+* *Google Play:* Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. See the [Google Privacy Policy](https://policies.google.com/privacy).
+* *App Store:* Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Republic of Ireland. See the [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
 
 Apart from the purchase order information described in section 4, I receive no data from the stores that identifies you personally.
 
@@ -226,10 +226,10 @@ If you object, I will stop that processing unless I can demonstrate compelling l
 
 You have the right to lodge a complaint with a data protection supervisory authority, for example:
 
-Bayerisches Landesamt für Datenschutzaufsicht  
-Promenade 18  
-91522 Ansbach  
-Germany  
+Bayerisches Landesamt für Datenschutzaufsicht\
+Promenade 18\
+91522 Ansbach\
+Germany
 
 Website: [Bavarian State Office for Data Protection Supervision](https://www.lda.bayern.de)
 

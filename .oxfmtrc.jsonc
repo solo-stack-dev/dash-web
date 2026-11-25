@@ -8,5 +8,6 @@
 	"sortTailwindcss": {
 		"stylesheet": "./src/routes/layout.css"
 	},
-	"ignorePatterns": ["pnpm-lock.yaml", "src/lib/paraglide", "worker-configuration.d.ts", "/static/", "docs/screens/"]
+	// src/content: mdsvex 1.0 Markdown, whose dialect (`*bold*`, `_italic_`) the CommonMark formatter would rewrite
+	"ignorePatterns": ["pnpm-lock.yaml", "src/content/", "src/lib/paraglide", "worker-configuration.d.ts", "/static/", "docs/screens/"]
 }
